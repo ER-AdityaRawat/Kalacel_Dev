@@ -3,11 +3,18 @@
     padding:0;
     box-sizing: border-box;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: #ecf5fe;
+    /* background-color: #ecf5fe; */
     
 }
+.navbar{
+    background-color: #ecf5fe;
+}
 .navbar-nav{
-    gap:.5rem
+    gap:.5rem;
+}
+.nav-spacebar{
+    height: 86px;
+    background-color: transparent;
 }
 .nav-link{
     color: #6a85a6 !important;
@@ -90,7 +97,7 @@
 }
 .dropdown-row-menu .dropdown-item{
     max-height: 350px !important;
-    padding: .5rem; 
+    padding: 2rem 1.5rem; 
     display: flex;
     flex-direction: column;
     
@@ -141,6 +148,49 @@
     background-color: white !important;
 }
 .footer-container{
-    height: 400px;
+    height: 220px;
     background-color: transparent;
+    padding: 2.5rem 3rem 1rem 3rem;
+}
+.footer-link-list li{
+ color: #4b5d73;
+ list-style: none;
+ margin-bottom: 9px;
+ cursor: pointer;
+ width: auto;
+ transition: all .3s ease;
+ 
+}
+.footer-link-list{
+    padding-left: 1rem !important;
+}
+.footer-link-list li:hover a {
+    color: #0083ff !important;
+    margin-left: 8px;
+    transition: margin-left .2s ease;
+}
+
+.bi-arrow-right{
+    opacity: 0;
+    transition: opacity .2s ease;
+}
+.footer-link-list li:hover .bi-arrow-right {
+    color: #0083ff;
+    opacity: 1;
+    transition: opacity .2s ease;
+}
+.footer-link-list li a{
+    margin-right: 8px;
+}
+.footer-send-btn{
+    margin-top: 2rem;
+    border-radius: 30px;
+    padding: .5rem 2.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 15px;
+    background-color: #01a23c !important;
+}
+.footer-send-btn:hover{
+    box-shadow: 10px 0 30px 0 rgba(1, 162, 60, 0.5)
 }
