@@ -104,3 +104,43 @@
 .dropdown-row-menu li:hover {
     background-color: #dde5ec;
 }
+.sub-footer{
+    background-color: transparent;
+    padding-top: 35px;
+    text-align: center;
+    position: relative;
+    margin-top: 120px;
+}
+.back-to-top{
+    background-color: #0083ff;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    font-size: 30px;
+    color: white;
+    box-shadow: 10px 0 30px 0 rgba(0, 130, 215, 0.4);
+    position: absolute;
+    top: 7px;
+}
+.sub-footer-container{
+    width: 100%;
+    background-color: white !important;
+    padding: 2rem;
+}
+.sub-footer-container span{
+    color: #6987ab;
+    font-size: 14px;
+    background-color: white !important;
+}
+.sub-footer-container label{
+    color: #6987ab;
+    font-size: 14px;
+    background-color: white !important;
+}
+.footer-container{
+    height: 400px;
+    background-color: transparent;
+}
