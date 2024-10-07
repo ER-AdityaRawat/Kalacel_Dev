@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #ecf5fe;
+    
+}
+.navbar-nav{
+    gap:.5rem
+}
+.nav-link{
+    color: #6a85a6 !important;
+    font-weight: 700;
+    border-radius: 20px;
+    font-size: 14px;
+    line-height: 1;
+    text-transform: uppercase;
+    transition: all .3s ease;
+    padding: 8px 15px;
+}
+.nav-link:hover{
+    color: #0083ff !important;
+    font-weight: 700;
+    background-color: white;
+}
+.navbar-brand{
+    color: #273f5b !important;
+    font-weight: 700;
+    font-size: 25px;
+}
+.dropdown:hover .dropdown-column-menu{
+    display: flex !important;
+    flex-direction: column;
+}
+.dropdown-column-menu{
+    position: absolute;
+    display: none;
+    background-color: white;
+    border-radius: 10px;
+    padding: .5rem; 
+    top: 2rem;
+    width: 200px !important;
+    justify-content: center;
+    padding: 1rem 1rem 1rem 1rem;
+    flex-direction: column;
+}
+.dropdown-column-menu .dropdown-item{
+    color: #6a85a6;
+    padding: .5rem 1.5rem .5rem;
+    font-size: 15px;
+}
+.dropdown-column-menu  li::before{
+    content: '';
+    display: block;
+    height: 15%;
+    width: 3px;
+    background-color: #d6dfeb;
+    left: 15px;
+    position: absolute;
+    transition: background-color .3s ease;
+}
+.dropdown-column-menu  li:hover::before{
+    background-color: #0083ff  !important;
+}
+.dropdown-column-menu  li:hover .dropdown-item{
+    color: #0083ff;
+}
+.dropdown-column-menu >li{
+    list-style: none !important;
+    background-color: white;
+}
+.dropdown:hover .dropdown-row-menu{
+    display: flex !important;
+    flex-direction: row;
+}
+
+.dropdown-row-menu{
+    position: absolute;
+    width: 500px !important;
+    left: -200px !important;
+    min-height: 350px;
+    display: none;
+    /* background-color: white; */
+    border-radius: 10px;
+    padding: 0rem; 
+    top: 2rem;
+    background-color: #f5f5f5;
+    box-shadow: 10px 0 50px rgba(37, 49, 63, 0.1);
+}
+.dropdown-row-menu .dropdown-item{
+    max-height: 350px !important;
+    padding: .5rem; 
+    display: flex;
+    flex-direction: column;
+    
+}
+.dropdown-row-menu li{
+    list-style: none !important;
+    cursor: pointer; 
+    width: 50%;
+    background-color: #f5f5f5;
+}
+.dropdown-row-menu li:hover {
+    background-color: #dde5ec;
+}
