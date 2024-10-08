@@ -111,8 +111,9 @@ function questionSlideChange(count){
 
 
 }
-window.onload=function(){
+const pageLoad=()=>{
     slideChange('one');
     questionSlideChange('one');
 }
+window.onload=pageLoad();
 
