@@ -16,3 +16,42 @@ countDivs.forEach((div)=>{
 
 })
 
+function slideChange(count){
+    var element=document.getElementById("slide-items-one");
+    var elementTwo=document.getElementById("slide-items-two");
+    var elementThree=document.getElementById("slide-items-three");
+    var redDiv=document.getElementById("red-div");
+    var blueDiv=document.getElementById("blue-div");
+    var orangeDiv=document.getElementById("orange-div");
+
+
+    if(count=="one"){
+        element.classList.add("slide-items-active");
+        elementTwo.classList.remove("slide-items-active");
+        elementThree.classList.remove("slide-items-active");
+        
+        blueDiv.classList.add("active-slide");
+        redDiv.classList.remove("active-slide");
+        orangeDiv.classList.remove("active-slide");
+    }else if(count=="two"){
+        element.classList.remove("slide-items-active");
+        elementTwo.classList.add("slide-items-active");
+        elementThree.classList.remove("slide-items-active");
+
+        blueDiv.classList.remove("active-slide");
+        redDiv.classList.remove("active-slide");
+        orangeDiv.classList.add("active-slide");
+    }
+    else if(count=="three"){
+        element.classList.remove("slide-items-active");
+        elementTwo.classList.remove("slide-items-active");
+        elementThree.classList.add("slide-items-active");
+
+        blueDiv.classList.remove("active-slide");
+        redDiv.classList.add("active-slide");
+        orangeDiv.classList.remove("active-slide");
+    }
+
+}
+window.onload=slideChange('one');
+

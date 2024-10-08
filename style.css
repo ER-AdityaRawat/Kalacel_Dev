@@ -206,3 +206,89 @@
     height:500px;
     background-color: #273f5b;
 }
+.blue-div{
+    background-color: #0083ff;
+    background-image: url('./Images/blue-clouds-bg.png');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.red-div{
+    background-color: #ff3133;
+    background-image: url('./Images/red-clouds-bg.png');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.orange-div{
+    background-color: #f89101;
+    background-image: url('./Images/orange-clouds-bg.png');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.store-links{
+    cursor: pointer;
+    transition: box-shadow .3s ease-in-out;
+}
+.store-links:hover{
+    box-shadow: 10px 0 15px 14px rgba(18, 25, 33, 0.3)
+}
+.slide-items{
+    text-decoration: none;
+    cursor: pointer;
+}
+.slide-round{
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    background-color: #a1b7d2;
+    margin-right: 15px;
+    position: relative;
+}
+.slide-round::before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 4px;
+    height: 0;
+    border-radius: 0 0 5px 5px;
+    top: -70px;
+    left: 1px;
+    opacity: 0;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.slide-items-active{
+    margin-top: 35px ;
+    transition: all .4s ease-in-out;
+}
+.slide-items-active .slide-round-two{
+    background-color: #f89101;
+}
+.slide-items-active .slide-round-one{
+    background-color: #0083ff;
+}
+.slide-items-active .slide-round-three{
+    background-color: #ff3133;
+}
+.slide-items-active .slide-round-one::before{
+    opacity: 1;
+    height: 60px;
+    background-color: #0083ff;
+}
+.slide-items-active .slide-round-two::before{
+    opacity: 1;
+    height: 60px;
+    background-color: #f89101;
+}
+.slide-items-active .slide-round-three::before{
+    opacity: 1;
+    height: 60px;
+    background-color: #ff3133;
+}
+.active-slide{
+    display: flex !important;
+}
