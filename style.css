@@ -375,3 +375,12 @@ margin-right: 8px;
 .landing-btn:hover .bi-arrow-right{
 margin-left: 8px;
 }
+.brands-section{
+    height: 300px;
+}
+.brands-list li:hover img{
+ filter: grayscale(0) !important;
+}
+.brands-list li{
+    cursor: pointer;
+}
