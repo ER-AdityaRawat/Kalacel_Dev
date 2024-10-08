@@ -60,6 +60,13 @@ function questionSlideChange(count){
     var elementFour=document.getElementById("question-slide-four");
     var elementFive=document.getElementById("question-slide-five");
     var elementSix=document.getElementById("question-slide-six");
+
+    var elementOneDiv=document.getElementById("question-one-div");
+    var elementTwoDiv=document.getElementById("question-two-div");
+    var elementThreeDiv=document.getElementById("question-three-div");
+    var elementFourDiv=document.getElementById("question-four-div");
+    var elementFiveDiv=document.getElementById("question-five-div");
+    var elementSixDiv=document.getElementById("question-six-div");
     if(count=="one"){
         elementOne.classList.add("question-slide-active");
         elementTwo.classList.remove("question-slide-active");
@@ -67,6 +74,13 @@ function questionSlideChange(count){
         elementFour.classList.remove("question-slide-active");
         elementFive.classList.remove("question-slide-active");
         elementSix.classList.remove("question-slide-active");
+
+        elementOneDiv.classList.add("question-slide-active-div");
+        elementTwoDiv.classList.remove("question-slide-active-div");
+        elementThreeDiv.classList.remove("question-slide-active-div");
+        elementFourDiv.classList.remove("question-slide-active-div");
+        elementFiveDiv.classList.remove("question-slide-active-div");
+        elementSixDiv.classList.remove("question-slide-active-div");
     }
     else if(count=="two"){
         elementOne.classList.remove("question-slide-active");
@@ -75,6 +89,13 @@ function questionSlideChange(count){
         elementFour.classList.remove("question-slide-active");
         elementFive.classList.remove("question-slide-active");
         elementSix.classList.remove("question-slide-active");
+
+        elementOneDiv.classList.remove("question-slide-active-div");
+        elementTwoDiv.classList.add("question-slide-active-div");
+        elementThreeDiv.classList.remove("question-slide-active-div");
+        elementFourDiv.classList.remove("question-slide-active-div");
+        elementFiveDiv.classList.remove("question-slide-active-div");
+        elementSixDiv.classList.remove("question-slide-active-div");
     }
     else if(count=="three"){
         elementOne.classList.remove("question-slide-active");
@@ -83,6 +104,13 @@ function questionSlideChange(count){
         elementFour.classList.remove("question-slide-active");
         elementFive.classList.remove("question-slide-active");
         elementSix.classList.remove("question-slide-active");
+
+        elementOneDiv.classList.remove("question-slide-active-div");
+        elementTwoDiv.classList.remove("question-slide-active-div");
+        elementThreeDiv.classList.add("question-slide-active-div");
+        elementFourDiv.classList.remove("question-slide-active-div");
+        elementFiveDiv.classList.remove("question-slide-active-div");
+        elementSixDiv.classList.remove("question-slide-active-div");
     }
     else if(count=="four"){
         elementOne.classList.remove("question-slide-active");
@@ -91,6 +119,13 @@ function questionSlideChange(count){
         elementFour.classList.add("question-slide-active");
         elementFive.classList.remove("question-slide-active");
         elementSix.classList.remove("question-slide-active");
+
+        elementOneDiv.classList.remove("question-slide-active-div");
+        elementTwoDiv.classList.remove("question-slide-active-div");
+        elementThreeDiv.classList.remove("question-slide-active-div");
+        elementFourDiv.classList.add("question-slide-active-div");
+        elementFiveDiv.classList.remove("question-slide-active-div");
+        elementSixDiv.classList.remove("question-slide-active-div");
     }
     else if(count=="five"){
         elementOne.classList.remove("question-slide-active");
@@ -99,6 +134,13 @@ function questionSlideChange(count){
         elementFour.classList.remove("question-slide-active");
         elementFive.classList.add("question-slide-active");
         elementSix.classList.remove("question-slide-active");
+
+        elementOneDiv.classList.remove("question-slide-active-div");
+        elementTwoDiv.classList.remove("question-slide-active-div");
+        elementThreeDiv.classList.remove("question-slide-active-div");
+        elementFourDiv.classList.remove("question-slide-active-div");
+        elementFiveDiv.classList.add("question-slide-active-div");
+        elementSixDiv.classList.remove("question-slide-active-div");
     }
     else if(count=="six"){
         elementOne.classList.remove("question-slide-active");
@@ -107,6 +149,13 @@ function questionSlideChange(count){
         elementFour.classList.remove("question-slide-active");
         elementFive.classList.remove("question-slide-active");
         elementSix.classList.add("question-slide-active");
+
+        elementOneDiv.classList.remove("question-slide-active-div");
+        elementTwoDiv.classList.remove("question-slide-active-div");
+        elementThreeDiv.classList.remove("question-slide-active-div");
+        elementFourDiv.classList.remove("question-slide-active-div");
+        elementFiveDiv.classList.remove("question-slide-active-div");
+        elementSixDiv.classList.add("question-slide-active-div");
     }
 
 

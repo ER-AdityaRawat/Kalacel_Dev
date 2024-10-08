@@ -318,4 +318,39 @@
 .question-slide-active{
     opacity: 1;
     box-shadow: 10px 0 10px 0 rgba(0, 131, 255, 0.2);
+    
 }
+.question-slide-active-div{
+    /* transition: all .5x ease-in-out; */
+    display: flex !important;
+    animation: fade-in 2s;
+}
+.question-list-item{
+    cursor: pointer;
+}
+.question-list-item:hover{
+    color:green;
+}
+.questions-div{
+    transition: display 1s ease-in-out;
+    /* animation: fade-out 1s; */
+    
+}
+
+@keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fade-out {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
