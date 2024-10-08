@@ -87,10 +87,12 @@
             </div>
         </div>
     </nav>
+
     <!--navbar end-->
     <div class="nav-spacebar"></div>
+
      <!--clickable slides-->
-     <section >
+     <section>
         <div class="blue-div row flex-row" id="blue-div"  style="display: none;">
             <div class="col-lg-6 justify-content-center d-flex align-items-center">
                 <div style="border-radius: 10px;width:40%">
@@ -171,13 +173,35 @@
         </div>
         <div class="row" style="height: 150px;width: 100%;">
             <div class="slides-div d-flex justify-content-center gap-4 py-4">
-                <a class="slide-items slide-items-one"id="slide-items-one" onclick="slideChange('one')"><span class="slide-round slide-round-one"></span><span style="color: #849dbd;font-size: 14px;">01.</span></a>
-                <a class="slide-items slide-items-two" id="slide-items-two" onclick="slideChange('two')"><span class="slide-round slide-round-two"></span><span style="color: #849dbd;font-size: 14px;">02.</span></a>
-                <a class="slide-items slide-items-three" id="slide-items-three" onclick="slideChange('three')"><span class="slide-round slide-round-three"></span><span style="color: #849dbd;font-size: 14px;">03.</span></a>
+                <a class="slide-items slide-items-one"id="slide-items-one" onclick="slideChange('one')"><span class="slide-round slide-round-one"></span><span style="color: #849dbd;font-size: 18px;font-weight: 600;">01.</span></a>
+                <a class="slide-items slide-items-two" id="slide-items-two" onclick="slideChange('two')"><span class="slide-round slide-round-two"></span><span style="color: #849dbd;font-size: 18px;font-weight: 600;">02.</span></a>
+                <a class="slide-items slide-items-three" id="slide-items-three" onclick="slideChange('three')"><span class="slide-round slide-round-three"></span><span style="color: #849dbd;font-size: 18px;font-weight: 600;">03.</span></a>
             </div>
         </div>
 
     </section>
+
+    <!--questions section-->
+    <section>
+        <div class="row questions-section" style="padding:10px 7rem">
+            <div class="col-lg-12">
+                <strong style="text-transform: uppercase;font-size: 17px;font-weight: 600;color: #6987ab;">Faq</strong>
+                <h1 style="color: #273f5b;font-weight: 600;" class="mt-4">Six important questions </h1>
+                <div class="d-flex gap-4 mt-5" style="margin-top: 70px !important;">
+                    <a onclick="questionSlideChange('one')" class="question-slide-items question-slide-active" id="question-slide-one">1</a>
+                    <a onclick="questionSlideChange('two')" class="question-slide-items" id="question-slide-two">2</a>
+                    <a onclick="questionSlideChange('three')" class="question-slide-items" id="question-slide-three">3</a>
+                    <a onclick="questionSlideChange('four')" class="question-slide-items" id="question-slide-four">4</a>
+                    <a onclick="questionSlideChange('five')" class="question-slide-items" id="question-slide-five">5</a>
+                    <a onclick="questionSlideChange('six')" class="question-slide-items" id="question-slide-six">6</a>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!--user count div-->
     <section>
         <div class="row">
