@@ -318,7 +318,7 @@
 .question-slide-active{
     opacity: 1;
     box-shadow: 10px 0 10px 0 rgba(0, 131, 255, 0.2);
-    
+
 }
 .question-slide-active-div{
     /* transition: all .5x ease-in-out; */
@@ -354,3 +354,24 @@
       opacity: 0;
     }
   }
+
+.landing-section{
+    height: 500px;
+    background-image: url('./Images/landing-clouds.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ecf5fe;
+}
+.landing-item:hover .bi-arrow-right{
+margin-right: 8px;
+
+}
+.landing-item .bi-arrow-right{
+    transition: margin .3s ease-in-out;
+}
+.landing-btn .bi-arrow-right{
+    transition: margin .3s ease-in-out;
+}
+.landing-btn:hover .bi-arrow-right{
+margin-left: 8px;
+}
