@@ -217,23 +217,33 @@
 .red-div{
     background-color: #ff3133;
     background-image: url('./Images/red-clouds-bg.png');
-    height: 500px;
+    /* height: 500px; */
     background-repeat: no-repeat;
     background-size: contain;
+    padding: 10px 0px;
 }
 .orange-div{
     background-color: #f89101;
     background-image: url('./Images/orange-clouds-bg.png');
-    height: 500px;
+    /* height: 500px; */
     background-repeat: no-repeat;
     background-size: contain;
+    padding: 10px 0px;
+
 }
 .store-links{
     cursor: pointer;
-    transition: box-shadow .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
-.store-links:hover{
-    box-shadow: 10px 0 15px 14px rgba(18, 25, 33, 0.3)
+.store-links img{
+    transition: padding-bottom .2s ease-in-out;
+}
+.store-links:hover img{
+    padding-bottom: 2px;
+}
+.store-links:hover {
+    box-shadow: 10px 0 15px 14px rgba(18, 25, 33, 0.3);
+
 }
 .slide-items{
     text-decoration: none;
