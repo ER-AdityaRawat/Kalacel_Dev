@@ -211,7 +211,7 @@
 .blue-div{
     background-color: #0083ff;
     background-image: url('./Images/blue-clouds-bg.png');
-    height: 500px;
+    min-height: 500px;
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -368,7 +368,7 @@
   }
 
 .landing-section{
-    height: 550px;
+    min-height: 550px;
     background-image: url('./Images/landing-clouds.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -395,4 +395,400 @@ margin-left: 8px;
 }
 .brands-list li{
     cursor: pointer;
+}
+/*----------------------Responsive CSS-------------- starts here--------------*/
+@media only screen and (min-width: 2000px) {
+    #TMSImage{
+        height: 450px !important;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width:1200px) {
+
+    /* landing section */
+    .landing-section .col-lg-5{
+        padding: 50px 60px !important;
+    }
+    .landing-section .col-lg-7 h1{
+        font-size: 2rem !important;
+    }
+    .landing-section .col-lg-7 p{
+        font-size: 16px !important;
+    }
+
+    /* clickable slides */
+    .blue-div{
+        height: 550px !important;
+    }
+    .red-div{
+        height: 550px !important;
+    }
+    .orange-div{
+        height: 550px !important;
+    }
+    /* question section */
+    .questions-section img{
+        width: 90% !important;
+    }
+    .questions-div ul{
+        padding: 0px !important;
+    }
+}
+@media only screen and (min-width: 768px)and (max-width:992px) {
+     /* landing section */
+     .landing-section .col-lg-7 {
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-direction: column;
+     }
+     .landing-section .col-lg-7 h1{
+        text-align: center !important;
+    }
+    .landing-section .col-lg-7 p{
+        text-align: center !important;
+    }
+    .landing-section .col-lg-5{
+        padding: 50px 12rem !important;
+    }
+    /* clickable slides */
+    .clickable-slides-content{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .clickable-slides-content p{
+        text-align: center !important;
+    }
+    #TMSImage{
+        margin-top: 10px !important;
+    }
+    /* user-count section  */
+    .user-count-left-container{
+        height: 400px !important;
+    }
+    .user-count-right-container{
+        height: 350px !important;
+    }
+    .user-count-left-container h2{
+        text-align: center !important;
+    }
+    .user-count-row{
+        gap: 0% !important;
+    }
+    /* questions section  */
+    .questions-section{
+        height: auto !important;
+    }
+    .questions-section img{
+        width: 40% !important;
+    }
+    .question-slide-active-div .col-lg-4{
+        display: flex;
+        justify-content: center;
+    }
+    /* footer  */
+    .footer-container{
+        height: auto !important;
+        gap: 22px !important;
+    }
+    .footer-container .col-md-0{
+        display: none !important;
+    }
+    .footer-container .btn-success{
+        width: 100% !important;
+    }
+    .useful-links-div{
+        /* margin-top: 20px; */
+    }
+}
+@media only screen and (min-width: 600px)and (max-width:768px) {
+    /* landing section */
+    .landing-section .col-lg-7 {
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-direction: column;
+     }
+     .landing-section .col-lg-7 h1{
+        text-align: center !important;
+    }
+    .landing-section .col-lg-7 p{
+        text-align: center !important;
+    }
+    .landing-section .col-lg-5{
+        padding: 50px 8rem !important;
+    }
+    /* clickable slides */
+    .clickable-slides-content{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .clickable-slides-content h4{
+        text-align: center !important;
+    }
+    .clickable-slides-content p{
+        text-align: center !important;
+    }
+    #TMSImage{
+        margin-top: 10px !important;
+    }
+    /* brands section  */
+    .brands-section{
+        height: auto !important;
+    }
+    /* user-count section  */
+    .user-count-left-container{
+        height: 350px !important;
+        padding: 1rem 2rem !important;
+    }
+    .user-count-right-container{
+        height: 300px !important;
+    }
+    .user-count-left-container h2{
+        text-align: center !important;
+    }
+    .user-count-row{
+        gap: 0% !important;
+    }
+    /* questions section  */
+    .questions-section{
+        height: auto !important;
+        padding: 10px 4rem !important;
+    }
+    .questions-section img{
+        width: 40% !important;
+    }
+    .question-slide-active-div .col-lg-4{
+        display: flex;
+        justify-content: center;
+    }
+    .question-slide-items{
+        margin-right: 0px !important;
+        font-size: 20px !important;
+    }
+    .question-slide-items-container{
+        margin-top: 40px !important;
+    }
+    .question-list-container{
+        flex-direction: column;
+    }
+    .question-list-item-container{
+        width: 100% !important;
+    }
+    .question-list-item-container ul{
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+    .question-list-item-container ul li{
+        margin-bottom: 5px;
+    }
+    /* footer  */
+    .footer-container{
+        height: auto !important;
+        gap: 22px !important;
+    }
+    .footer-container .col-md-0{
+        display: none !important;
+    }
+    .footer-container .btn-success{
+        width: 100% !important;
+    }
+}
+@media only screen and (min-width: 425px)and (max-width:600px) {
+    /* landing section */
+    .landing-section .col-lg-7 {
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-direction: column;
+        padding: 50px 60px !important;
+     }
+     .landing-section .col-lg-7 h1{
+        text-align: center !important;
+        font-size: 2rem !important;
+    }
+    .landing-section .col-lg-7 p{
+        text-align: center !important;
+        font-size: 18px !important;
+    }
+    .landing-section .col-lg-5{
+        padding: 50px 4rem !important;
+    }
+    /* clickable slides */
+    .clickable-slides-content{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .clickable-slides-content h4{
+        text-align: center !important;
+    }
+    .clickable-slides-content p{
+        text-align: center !important;
+    }
+    #TMSImage{
+        margin-top: 10px !important;
+    }
+    /* brands section  */
+    .brands-section{
+        height: auto !important;
+    }
+    /* user-count section  */
+    .user-count-left-container{
+        height: 350px !important;
+        padding: 1rem 0rem !important;
+    }
+    .user-count-right-container{
+        height: 300px !important;
+    }
+    .user-count-left-container h2{
+        text-align: center !important;
+    }
+    .user-count-row{
+        gap: 0% !important;
+    }
+    /* questions section  */
+    .questions-section{
+        height: auto !important;
+        padding: 10px 1rem !important;
+    }
+    .questions-section img{
+        width: 40% !important;
+    }
+    .question-slide-active-div .col-lg-4{
+        display: flex;
+        justify-content: center;
+    }
+    .question-slide-items{
+        margin-right: 0px !important;
+        font-size: 20px !important;
+    }
+    .question-slide-items-container{
+        margin-top: 40px !important;
+    }
+    .question-list-container{
+        flex-direction: column;
+    }
+    .question-list-item-container{
+        width: 100% !important;
+    }
+    .question-list-item-container ul{
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+    .question-list-item-container ul li{
+        margin-bottom: 5px;
+    }
+    /* footer  */
+    .footer-container{
+        height: auto !important;
+        gap: 22px !important;
+    }
+    .footer-container .col-md-0{
+        display: none !important;
+    }
+    .footer-container .btn-success{
+        width: 100% !important;
+    }
+}
+@media only screen and (min-width: 300px)and (max-width:425px) {
+    /* landing section */
+    .landing-section .col-lg-7 {
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-direction: column;
+        padding: 50px 60px !important;
+     }
+     .landing-section .col-lg-7 h1{
+        text-align: center !important;
+        font-size: 2rem !important;
+    }
+    .landing-section .col-lg-7 p{
+        text-align: center !important;
+        font-size: 18px !important;
+    }
+    .landing-section .col-lg-5{
+        padding: 50px 2rem !important;
+    }
+    /* clickable slides */
+    .clickable-slides-content{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .clickable-slides-content h4{
+        text-align: center !important;
+    }
+    .clickable-slides-content p{
+        text-align: center !important;
+    }
+    #TMSImage{
+        margin-top: 10px !important;
+    }
+    /* brands section  */
+    .brands-section{
+        height: auto !important;
+    }
+    /* user-count section  */
+    .user-count-left-container{
+        height: 350px !important;
+        padding: 1rem 0rem !important;
+    }
+    .user-count-right-container{
+        height: 300px !important;
+    }
+    .user-count-left-container h2{
+        text-align: center !important;
+    }
+    .user-count-row{
+        gap: 0% !important;
+    }
+    /* questions section  */
+    .questions-section{
+        height: auto !important;
+        padding: 10px 1rem !important;
+    }
+    .questions-section img{
+        width: 40% !important;
+    }
+    .question-slide-active-div .col-lg-4{
+        display: flex;
+        justify-content: center;
+    }
+    .question-slide-items{
+        margin-right: 0px !important;
+        font-size: 20px !important;
+        width: 40px !important;
+        height: 40px !important;
+        line-height: 40px !important;
+    }
+    .question-slide-items-container{
+        margin-top: 40px !important;
+    }
+    .question-list-container{
+        flex-direction: column;
+    }
+    .question-list-item-container{
+        width: 100% !important;
+    }
+    .question-list-item-container ul{
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+    .question-list-item-container ul li{
+        margin-bottom: 5px;
+    }
+    /* footer  */
+    .footer-container{
+        height: auto !important;
+        gap: 22px !important;
+    }
+    .footer-container .col-md-0{
+        display: none !important;
+    }
+    .footer-container .btn-success{
+        width: 100% !important;
+    }
 }
