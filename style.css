@@ -84,8 +84,8 @@
 
 .dropdown-row-menu{
     position: absolute;
-    width: 500px !important;
-    left: -200px !important;
+    width: 700px !important;
+    left: -300px !important;
     min-height: 350px;
     display: none;
     /* background-color: white; */
