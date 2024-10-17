@@ -6,6 +6,10 @@
     /* background-color: #ecf5fe; */
     
 }
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
 .navbar{
     background-color: #ecf5fe;
 }
