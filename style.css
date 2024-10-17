@@ -467,11 +467,15 @@ margin-left: 8px;
         margin-top: 10px !important;
     }
     /* user-count section  */
+    /* .user-count-section .user-count-right-container{
+        background-image: none !important;
+
+    } */
     .user-count-left-container{
         height: 400px !important;
     }
     .user-count-right-container{
-        height: 350px !important;
+        height: 0px !important;
     }
     .user-count-left-container h2{
         text-align: center !important;
@@ -547,13 +551,37 @@ margin-left: 8px;
         padding: 1rem 2rem !important;
     }
     .user-count-right-container{
-        height: 300px !important;
+        height: 0px !important;
     }
     .user-count-left-container h2{
         text-align: center !important;
     }
     .user-count-row{
         gap: 0% !important;
+    }
+    #acitveUsersDiv h2{
+
+    }
+    #acitveUsersDiv h5{
+
+    }
+    #downloadsDiv h2{
+        width: 55% !important;
+    }
+    #downloadsDiv h5{
+        width: 45% !important;
+    }
+    #businessYearsDiv h2{
+
+    }
+    #businessYearsDiv h5{
+
+    }
+    #employeesDiv h2{
+        width: 55% !important;
+    }
+    #employeesDiv h5{
+        width: 45% !important;
     }
     /* questions section  */
     .questions-section{
@@ -644,13 +672,41 @@ margin-left: 8px;
         padding: 1rem 0rem !important;
     }
     .user-count-right-container{
-        height: 300px !important;
+        height: 0px !important;
     }
     .user-count-left-container h2{
         text-align: center !important;
     }
     .user-count-row{
         gap: 0% !important;
+    }
+    #acitveUsersDiv h2{
+        font-size: 20px !important;
+    }
+    #acitveUsersDiv h5{
+        font-size: 16px !important;
+    }
+    #downloadsDiv h2{
+        width: 55% !important;
+        font-size: 20px !important;
+    }
+    #downloadsDiv h5{
+        width: 45% !important;
+        font-size: 16px !important;
+    }
+    #businessYearsDiv h2{
+        font-size: 20px !important;
+    }
+    #businessYearsDiv h5{
+        font-size: 16px !important;
+    }
+    #employeesDiv h2{
+        width: 55% !important;
+        font-size: 20px !important;
+    }
+    #employeesDiv h5{
+        width: 45% !important;
+        font-size: 16px !important;
     }
     /* questions section  */
     .questions-section{
@@ -741,13 +797,45 @@ margin-left: 8px;
         padding: 1rem 0rem !important;
     }
     .user-count-right-container{
-        height: 300px !important;
+        height: 0px !important;
     }
     .user-count-left-container h2{
         text-align: center !important;
     }
     .user-count-row{
         gap: 0% !important;
+    }
+    #acitveUsersDiv h2{
+        width: 55% !important;
+        font-size: 20px !important;
+    }
+    #acitveUsersDiv h5{
+        width: 45% !important;
+        font-size: 16px !important;
+    }
+    #downloadsDiv h2{
+        width: 48% !important;
+        font-size: 20px !important;
+    }
+    #downloadsDiv h5{
+        width: 52% !important;
+        font-size: 16px !important;
+    }
+    #businessYearsDiv h2{
+        width: 55% !important;
+        font-size: 20px !important;
+    }
+    #businessYearsDiv h5{
+        width: 45% !important;
+        font-size: 16px !important;
+    }
+    #employeesDiv h2{
+        width: 48% !important;
+        font-size: 20px !important;
+    }
+    #employeesDiv h5{
+        width: 52% !important;
+        font-size: 16px !important;
     }
     /* questions section  */
     .questions-section{
