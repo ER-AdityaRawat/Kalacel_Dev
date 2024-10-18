@@ -405,6 +405,26 @@ margin-left: 8px;
     #TMSImage{
         height: 450px !important;
     }
+   
+}
+@media only screen and (min-width: 1650px) {
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    section{
+        width: 1440px !important;
+    }
+    footer,nav{
+        width: 1463px !important;
+    }
+    .fixed-top {
+        right: initial !important;
+        left: initial !important;
+        /* width: 1463px !important; */
+    }
 }
 @media only screen and (min-width: 992px) and (max-width:1200px) {
 
