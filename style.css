@@ -373,6 +373,8 @@ html, body {
 
 .landing-section{
     min-height: 550px;
+}
+.landing-container{
     background-image: url('./Images/landing-clouds.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -410,7 +412,7 @@ margin-left: 8px;
 }
 /* privacy section   */
 .privacy-container{
-    margin: 40px 300px !important;
+    margin: 80px 300px !important;
 }
 /*----------------------Responsive CSS-------------- starts here--------------*/
 @media only screen and (min-width: 2000px) {
@@ -425,12 +427,72 @@ margin-left: 8px;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        background-color: #ecf5fe;
     }
-    section{
+    .landing-section{
         width: 1440px !important;
     }
-    footer,nav{
-        width: 1463px !important;
+    .blue-div{
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+    }
+    .blue-div .col-lg-6{
+        width: 720px !important;
+    }
+    .red-div{
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+    }
+    .red-div .col-lg-6{
+        width: 720px !important;
+    }
+    .orange-div{
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+    }
+    .orange-div .col-lg-6{
+        width: 720px !important;
+    }
+    .user-count-section{
+        width: 1440px !important;
+    }
+    .footer-container{
+        width: 1440px !important;
+    }
+    .privacy-container{
+        width: 950px !important;
+        /* margin: 100px 600px !important; */
+    }
+    nav{
+        width: 100% !important;
+    }
+    .container-fluid{
+        width: 1440px !important;
+    }
+    section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100% !important;
+        flex-direction: column;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100% !important;
+        flex-direction: column;
+        width: 100% !important;
+    }
+    .copyright-container{
+        width: 100% !important;
+    }
+    .copyright-container .col-lg-12{
+        padding-left: 0px;
+        padding-right: 0px;
     }
     .fixed-top {
         right: initial !important;

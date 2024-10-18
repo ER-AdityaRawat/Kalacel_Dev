@@ -160,9 +160,23 @@ function questionSlideChange(count){
 
 
 }
+const text = "Your privacy is our responsibility";
+const container = document.getElementById('text-container');
+let i = 0;
+
+function showNextCharacter() {
+    if (i < text.length) {
+        container.innerHTML += text.charAt(i);
+        i++;
+        setTimeout(showNextCharacter, 200); // Adjust the speed (100ms delay between each character)
+    }
+}
+
+
 const pageLoad=()=>{
     slideChange('one');
-    questionSlideChange('one');
+    // questionSlideChange('one');
+    showNextCharacter();
 }
 window.onload=pageLoad();
 
