@@ -400,6 +400,18 @@ margin-left: 8px;
 .brands-list li{
     cursor: pointer;
 }
+.privacy-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center
+}
+/* privacy section   */
+.privacy-container{
+    margin: 40px 300px !important;
+}
 /*----------------------Responsive CSS-------------- starts here--------------*/
 @media only screen and (min-width: 2000px) {
     #TMSImage{
@@ -425,6 +437,7 @@ margin-left: 8px;
         left: initial !important;
         /* width: 1463px !important; */
     }
+    
 }
 @media only screen and (min-width: 992px) and (max-width:1200px) {
 
@@ -456,6 +469,11 @@ margin-left: 8px;
     .questions-div ul{
         padding: 0px !important;
     }
+    /* privacy section   */
+    .privacy-container{
+        margin: 40px 200px !important;
+    }
+    
 }
 @media only screen and (min-width: 768px)and (max-width:992px) {
      /* landing section */
@@ -527,6 +545,10 @@ margin-left: 8px;
     }
     .useful-links-div{
         /* margin-top: 20px; */
+    }
+    /* privacy section   */
+    .privacy-container{
+        margin: 40px 140px !important;
     }
 }
 @media only screen and (min-width: 600px)and (max-width:768px) {
@@ -645,6 +667,10 @@ margin-left: 8px;
     }
     .footer-container .btn-success{
         width: 100% !important;
+    }
+     /* privacy section   */
+     .privacy-container{
+        margin: 35px 60px !important;
     }
 }
 @media only screen and (min-width: 425px)and (max-width:600px) {
@@ -770,6 +796,10 @@ margin-left: 8px;
     }
     .footer-container .btn-success{
         width: 100% !important;
+    }
+     /* privacy section   */
+     .privacy-container{
+        margin: 35px 60px !important;
     }
 }
 @media only screen and (min-width: 300px)and (max-width:425px) {
@@ -902,5 +932,9 @@ margin-left: 8px;
     }
     .footer-container .btn-success{
         width: 100% !important;
+    }
+      /* privacy section   */
+      .privacy-container{
+        margin: 35px 10px !important;
     }
 }
