@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kalacelDoc</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="icon" type="image/x-icon" href="assets/Dax_logo_png.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <!-- Link Bootstrap JS and JQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
+  </script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js">
+  </script>
+  <script lang="javascript" src="dist/xlsx.full.min.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/datalist-css/dist/datalist-css.min.js"></script>
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  
+  
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+
+</head>
+<body>
+    <header>
+        <div class="main-header">
+          <div class="row" style="font-family: Roboto, sans-serif;">
+            <div class="col-md-3 col-sm-9 col-9">
+              <div class="logo">
+                <img src="https://www.kalacel.com/KalacelDoc/assets/images/Dax_logo.png" alt="Logo" style="height: 66px;">
+                <span style="font-size: 38px; font-weight: 600;">KalacelDoc</span>
+              </div>
+            </div>
+      
+            <div class="col-md-9 col-sm-3 col-3" style="padding-right: 0px; padding-left: 37px;">
+              <div class="menu_icon" (click)="openmenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <!-- <div class="menu" [class.menuClass]="menuVisible">
+                <ul>
+                  <li > <a  href="/KalacelDoc/ManageHome"  routerLinkActive="active" class="heading-header">Home</a></li>
+                  <li > <a href="/KalacelDoc/ManagePricing" class="heading-header">Pricing</a></li>
+                  <li><a routerLink="" routerLinkActive="active" (click)="scrollToContact()" class="heading-header">Contact Us</a></li>
+      
+                </ul>
+              </div> -->
+              <div class="menu" [class.menuClass]="menuVisible">
+                <ul>
+                  <li > <a [href]="ManageHomePage" routerLinkActive="active" class="heading-header" [class.active]="isActive('/ManageHome')||isActive('')" style="font-size: 15px !important;">Home</a></li>
+                  <!-- <li> <a [href]="ManagePricingPage" class="heading-header" [class.active]="isActive('/ManagePricing')" style="font-size: 15px !important;">Pricing</a></li> -->
+                  <li><a href="#contacts" class="heading-header" style="font-size: 15px !important;">Contact Us</a>
+                  </li>
+                  <!-- <li>
+                    <a [href]="ManageFreeTrail" routerLinkActive="active">
+                        <button class="heading-header free-trail">Start Free Trial</button>
+                    </a>
+                </li> -->
+                </ul>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+    </header>
+    <div id="homeid" class="fullwidthbanner maindiv kalaceldoc-page" id="home">
+        <div class="for-desk shadowhover" style="background: linear-gradient(to top, #ffffff, #cce0f8);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <h1 style="font-weight: 800; margin-top:60px;margin-bottom: 0px;">Scan, Sign and Send </h1>
+                        <h1 style="font-weight: 800;margin-bottom: 26px;"> Anytime, Anywhere</h1>
+                        <h5 style="margin-bottom: 26px;">KalacelDoc : Scan and share documents on the go</h5>
+                        <p style="margin-bottom: 2rem;"> 
+                            KalacelDoc, your premier solution for seamless document sharing on the go!
+                            Designed with drivers in mind, KalacelDoc revolutionizes the way you manage and share essential documents, ensuring you stay organized, compliant, and connected wherever the road takes you.
+                        </p>
+                      
+                        <!-- <a [href]="ManageFreeTrail" routerLinkActive="active">
+                                <button class="free-trails" style="margin-bottom: -8px;">Start Free Trial</button>
+                        </a> -->
+                        <div class="buy-btn" >
+                            <div class="row mt-5" style="">
+                                <div class="col-md-4">
+                                    <i class="fas fa-expand" style="font-size: 55px;color: #9fc4d7;display: flex;
+                                    justify-content: center;"></i>
+                                    <h6>Quick to scan or Upload</h6>
+                                </div>
+                                <div class="col-md-4">
+                                    <i class="fa fa-file-signature" style="font-size: 55px;color: #9fc4d7;display: flex;
+                                    justify-content: center;"></i>
+                                    <h6>Document Refinement</h6>
+                                </div>
+                                <div class="col-md-4">
+                                    <!-- Image with text -->
+                                    <i class="fa-solid fa-file-pdf" style="font-size: 55px;color: #9fc4d7;margin-left: 32px;"></i>
+                                    <h6>One Click Share</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="desktop-btn-wrapper row mt-5" id="desk-download-btn" >
+                            <div class="col-md-6 mb-3 mb-md-0 ">
+                                <a href="https://play.google.com/store/apps/details?id=io.akom.dax">
+                                    <div class="desk-text cursor-pointer">
+                                        <span><img src="./images/gplay.png" alt="download on google play" height="50" width="200" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat" class="shadow-on-hover"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6  mb-md-0">
+                                <a href="https://apps.apple.com/app/id6470036292">
+                                    <div class="desk-text ">
+                                        <span><img src="./images/12.png" alt="download on app store play" height="50" width="200" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat" class="shadow-on-hover"></span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 taxso-home1" style="text-align: center; margin-top: 80px;margin-bottom: 20px" >
+                        <div>
+                            <!-- <video autoplay muted loop> -->
+                                <img src="https://www.kalacel.com/Images/KalacelDoc_Demo.gif" alt="Kalacel Doc" style="width:300px;height:600px;border-radius: 30px;box-shadow: -10px 10px 5px #5f5e5ea6;border: 1px solid gainsboro;">
+                               
+                              <!-- </video> -->
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fullwidthbanner kalacel" id="home">
+        <div class="for-desk shadowhover" style="background: linear-gradient(to top, #ffffff, #cce0f8);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 taxso-home1" style="text-align: center; margin-top: 80px;margin-bottom: 20px" >
+                        <img src="./images/Daxi.png" alt="KalacelDoc best Scanner App" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat"width=330 height="300">
+                    </div>
+                <div class="col-lg-6 col-md-6" style="text-align: center;">
+                    <h1 style="font-weight: 800;">Scan, Sign and Send Anytime, Anywhere</h1>
+                    <h5 style="margin-bottom: 26px;">KalacelDoc : Scan and share documents on the go</h5>
+                    <p> 
+                        KalacelDoc, your premier solution for seamless document sharing on the go!
+                        Designed with drivers in mind, KalacelDoc revolutionizes the way you manage and share essential documents, ensuring you stay organized, compliant, and connected wherever the road takes you.
+                  </p>
+                  <!-- <a [href]="ManageFreeTrail" routerLinkActive="active">
+                    <button class="free-trails" style="margin-bottom: -8px;">Start Free Trial</button>
+            </a> -->
+                  <div class="buy-btn">
+                    <div class="  mt-5">
+                        <div class="col-md-4 main_icon">
+                            <!-- Image with text -->
+                            <!-- <img src="./images/quickScan.png" alt="Image" class="img-fluid"> -->
+                      <i class="fas fa-expand" style="font-size: 55px;color: #9fc4d7;"></i>
+                            <h6>Quick to scan or Upload</h6>
+                        </div>
+                        <div class="col-md-4 main_icon">
+                            <i class="fa fa-file-signature" style="font-size: 55px;color: #9fc4d7;"></i>
+                            <h6>Document Refinement</h6>
+                        </div>
+                        <div class="col-md-4 main_icon">
+                            <!-- Image with text -->
+                            <i class="fa-solid fa-file-pdf" style="font-size: 55px;color: #9fc4d7;"></i>
+                            <h6>One Click Share</h6>
+                        </div>
+                    </div>
+                    <div class="desktop-btn-wrapper row  mt-5" id="desk-download-btn">
+                        <div class="col-md-6 mb-3 mb-md-0 ">
+                            <a href="https://play.google.com/store/apps/details?id=io.akom.dax">
+                                <div class="desk-text cursor-pointer">
+                                    <!-- <span><img src="./images/googleplay.jpg" alt="download on google play" height="50" width="180" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat" class="shadow-on-hover"></span> -->
+                                    <span><img src="./images/gplay.png" alt="download on google play" height="50" width="200" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat" class="shadow-on-hover"></span>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="col-md-6  mb-md-0">
+                            <a href="https://apps.apple.com/app/id6470036292">
+                                <div class="desk-text ">
+                                    <!-- <span><img src="./images/appstorebutton.jpg" alt="download on app store play" height="50" width="180" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat" class="shadow-on-hover"></span> -->
+                                    <span><img src="./images/12.png" alt="download on app store play" height="50" width="200" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat" class="shadow-on-hover"></span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                
+                </div>
+                
+                
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    <div class="fullwidthbanner" id="home">
+        <div class="for-desk shadowhover" style="background: linear-gradient(to top, #cce0f8, #ffffff);" >
+            <div class="container" style="margin-top: 80px;">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 taxso-home1" style="text-align: center; margin-top: 20px;margin-bottom: 20px" >
+                        <img src="./images/neworg.png" alt="KalacelDoc best Scanner App"  height="550" width="260" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat" style="border-radius: 24px;
+                        border: 1px solid gainsboro;box-shadow: -10px 10px 5px rgba(95, 94, 94, 0.65);">
+                    </div>
+                <div class="col-lg-6 col-md-6 taxso-text">
+                    <h3 class="blue-text">Driver documents sharing made effortless</h3>
+                    <!-- <h6 class="text">DRIVER DOCUMENT SHARING MADE EFFORTLESS</h6> -->
+                    <p> 
+                        Take the hassle out of the managing your driver documents with our intuitive mobile app. Say goodbye to the inconvenience of traditional methods and embrace the simplicity of digital document management.
+                        <div class="key-features">
+                            <h4 style="margin-bottom: 21px;">Key Features</h4>
+                            <p> <i class="fas fa-check-circle"></i> Effortless Uploads. </p>
+                            <p><i class="fas fa-check-circle"></i> Customizable Scanning.</p>
+                            <p><i class="fas fa-check-circle"></i> Seamless Sharing.</p>
+                            <p><i class="fas fa-check-circle"></i> Organization Made Simple.</p>
+                            <p><i class="fas fa-check-circle"></i> Secure Storage.</p>
+                        </div>
+                        
+                
+                
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <div class="fullwidthbanner" id="home">
+        <div class="for-desk shadowhover" style="background: linear-gradient(to top, #cce0f8, #cce0f8);" >
+            <div class="container">
+                <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 taxso-text">
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="fullwidthbanner" id="home">
+        <div class="for-desk shadowhover" style="background: linear-gradient(to top, #ffffff, #cce0f8);" >
+            <div class="container">
+                <div class="row">
+                <div class="col-lg-6 col-md-6 taxso-text sign-image">
+                    <h3 class="blue-text">Genuine signatures for your documents</h3>
+                    <!-- <h3 class="text">Original Signature in Documents</h3> -->
+                    <p> 
+                        Introducing the ability to add your authentic signature directly onto scanned documents. With our innovative feature, you can effortlessly scan your document and apply your signature directly.
+                  </p>
+                  <div class="key-features">
+                    <h4>Key Features</h4>
+                    <p> <i class="fas fa-check-circle"></i>Capture Your Signature.</p>
+                    <p> <i class="fas fa-check-circle"></i>Adjustable Sizing.</p>
+                    <p> <i class="fas fa-check-circle"></i>Experience the convenience and authenticity of adding your signature.</p>
+                </div>
+                
+                
+                </div>
+                <div class="col-lg-6 col-md-6 taxso-home1" style="text-align: center; margin-top: 20px;margin-bottom: 20px">
+                    <img src="./images/sign.png" alt="KalacelDoc best Scanner App" height="550" width="275" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat" style="    border-radius: 30px;
+                    border: 1px solid gainsboro;
+                    box-shadow: -10px 10px 5px rgba(95, 94, 94, 0.65);">
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+    <section  #section id="contacts" class="section is-sm" style="background: linear-gradient(to top, #cce0f8, #ffffff);">
+        <div class="container">
+        
+            <h2 class="con-head-h2" style="padding: 25px;text-align: center;">Contact Us</h2>
+                 <span class="border-line"></span>
+            <div class="row mb-30_reset">
+                <div class="col-md border-left-md">
+                    <div class="box-con has-style2">
+                        <div class="box-icon">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        </div>
+                        <!-- <h4 class="box-title"> Canada 
+                        </h4> -->
+                        <p class="box-title">
+                            Kalacel Technologies
+                        </p>
+                        <p class="box-desc"><i class="fa-solid fa-envelope"></i>  support@kalacel.com</p>
+                        <a [href]="ManageContactUs" style="width: 233px;display: none;justify-content: center;">
+                            <div class="phone-number phone-number--below">
+                                <i class="fa-solid fa-envelope" aria-hidden="true" style="margin-right: 10px;"></i><span>contact us</span>
+                            </div>
+                        </a>
+                        <!-- <p class="box-desc">
+                            7-7015 Tranmere Drive, Mississauga, ON L5S 1T7 Canada
+                        </p> -->
+                    </div>
+    
+    
+    
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

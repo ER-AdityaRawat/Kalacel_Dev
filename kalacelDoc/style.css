@@ -1,0 +1,170 @@
+/* *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+}
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+} */
+/* You can add global styles to this file, and also import other style files */
+@import '~@fortawesome/fontawesome-free/css/all.css';
+header{
+    background: linear-gradient(to top, #b9cde7, #cce0f8);
+    position: fixed;
+     top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999; 
+    height: 72px;
+}
+.menu ul{
+    padding: 0px;
+    margin-top: 15px;
+}
+.menu ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 43px;
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+}
+.menu ul li a:hover{
+    color: rgb(28, 136, 244);
+     cursor: pointer;
+    transition: 0.4s ease-in-out;
+    text-decoration: none;
+}
+.heading-header{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
+    color: black;
+
+}
+.main-header {
+    margin-left: 105px !important;
+    margin-right: 80px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+@media  only screen and (max-width: 999px){
+    .menu{
+        position:fixed;
+        right: -280px;
+        top: 71px;
+        width: 180px;
+        height: 100%;
+        background: linear-gradient(to top, #b9cde7, #cce0f8);
+        transition: 0.4s ease-in-out;
+    }
+    .menu ul li{
+        display: block;
+        text-align: left;
+        margin: 0px;
+        padding: 10px 57px 10px 11px;
+        padding: 0px;
+    margin-right: 30px;
+    }
+    .menu_icon{
+        display: inline-block;
+        right: 0;
+        position: relative;
+        top: 20px;
+    }
+    .menu_icon span{
+    width: 32px;
+    height: 3px;
+    background-color: rgb(96, 82, 82);
+     display: block;
+     transition: 0.4s ease-in-out;
+    }
+    .menu_icon span:nth-child(2){
+        margin: 4px 0;
+    }
+    .menuClass{
+        right: 0;
+        transition: 0.4s ease-in-out;
+    }
+    .menu_icon_Class span:nth-child(2){
+        display:none;
+    }
+    .menu_icon_Class span:nth-child(1){
+        transform:rotate(40deg)
+    }
+    .menu_icon_Class span:nth-child(3){
+        transform:rotate(-40deg);
+        margin-top:-3px;
+    }
+    .main-header{
+        margin-left: 8px !important;
+        margin-right: 20px;
+    }
+    .menu ul li a:hover{
+        color: rgb(28, 136, 244);
+         cursor: pointer;
+        transition: 0.4s ease-in-out;
+        text-decoration: none;
+    }
+}
+@media (min-width: 576px){
+    .col-sm-8 {
+        flex: 0 0 auto;
+        /* width: 66.66666667%; */
+    }
+    }
+
+    p{
+        font-size: 19px;
+        
+    }
+    h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+        margin-top: 0;
+        margin-bottom: 1.5rem;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+    .me-5 {
+        margin-right: 13rem !important;
+    }
+    .me-3 {
+        margin-right: 3rem !important;
+    }
+    .navbar-dark .navbar-brand {
+        color: #000;
+    }
+    .bg-dark {
+        --bs-bg-opacity: 1;
+        background-color: rgb(207 226 248) !important;
+    }
+    .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+        color: #000;
+    }
+
+
+    .login-box {
+        background: url('/assets/images/onboardingimage.png');
+        background-size: cover;
+        background-position: center;
+        padding: 25px;
+         margin: 50px auto;
+        min-height: 700px;
+        -webkit-box-shadow: 0 2px 60px -5px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 2px 60px -5px rgba(0, 0, 0, 0.1);
+    }
+    video{
+        width: 300px;
+        height: 600px;
+        object-fit: fill;
+        pointer-events: none;
+        border-radius: 30px;
+        box-shadow: -10px 10px 5px #5f5e5ea6;
+        border: 1px solid gainsboro;
+    }
