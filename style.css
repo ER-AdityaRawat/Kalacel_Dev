@@ -605,9 +605,6 @@ margin-left: 8px;
     .footer-container .btn-success{
         width: 100% !important;
     }
-    .useful-links-div{
-        /* margin-top: 20px; */
-    }
     /* privacy section   */
     .privacy-container{
         margin: 40px 140px !important;
@@ -663,23 +660,11 @@ margin-left: 8px;
     .user-count-row{
         gap: 0% !important;
     }
-    #acitveUsersDiv h2{
-
-    }
-    #acitveUsersDiv h5{
-
-    }
     #downloadsDiv h2{
         width: 55% !important;
     }
     #downloadsDiv h5{
         width: 45% !important;
-    }
-    #businessYearsDiv h2{
-
-    }
-    #businessYearsDiv h5{
-
     }
     #employeesDiv h2{
         width: 55% !important;
