@@ -220,8 +220,8 @@ html, body {
     background-size: contain;
 }
 .red-div{
-    background-color: #ff3133;
-    background-image: url('./Images/red-clouds-bg.png');
+    background-color: #ffc200;
+    background-image: url('./Images/yellows-clouds.png');
     /* height: 500px; */
     background-repeat: no-repeat;
     background-size: contain;
