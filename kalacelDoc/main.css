@@ -576,6 +576,16 @@ label span {
 }
 .maindiv{
     margin-top: 62px;
+    background-image: url('../Images/landing-clouds.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ecf5fe;
+}
+.signature-feature-section{
+    background-image: url('../Images/light-blue-clouds-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: linear-gradient(to top, #cce0f8, #cce0f8);;
 }
 .keyfeature{
     margin-bottom: 30px;
