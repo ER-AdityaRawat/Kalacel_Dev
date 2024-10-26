@@ -288,7 +288,7 @@ html, body {
     background-color: #0083ff;
 }
 .slide-items-active .slide-round-three{
-    background-color: #ff3133;
+    background-color: #ffc200;
 }
 .slide-items-active .slide-round-one::before{
     opacity: 1;
@@ -303,7 +303,7 @@ html, body {
 .slide-items-active .slide-round-three::before{
     opacity: 1;
     height: 60px;
-    background-color: #ff3133;
+    background-color: #ffc200;
 }
 .active-slide{
     display: flex !important;
