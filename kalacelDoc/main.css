@@ -84,7 +84,7 @@ display: flex !important;
 }
 .blue-text {
     color: rgb(0, 0, 0);
-    font-weight: 800;
+    font-weight: 700;
 }
 .text{
     font-size: 40px;
@@ -582,10 +582,10 @@ label span {
     background-color: #ecf5fe;
 }
 .signature-feature-section{
-    background-image: url('../Images/light-blue-clouds-bg.png');
+    background-image: url('../Images/white-clouds-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: linear-gradient(to top, #cce0f8, #cce0f8);;
+    background-color: #ecf5fe;
 }
 .keyfeature{
     margin-bottom: 30px;
