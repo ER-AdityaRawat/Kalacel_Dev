@@ -213,15 +213,15 @@ html, body {
     background-color: #10141e;
 }
 .blue-div{
-    background-color: #4A628A;
-    background-image: url('./Images/blue-clouds-bg.png');
+    background-color: #364f6c;
+    background-image: url('./Images/dark-blue-bg.png');
     min-height: 500px;
     background-repeat: no-repeat;
     background-size: contain;
 }
 .red-div{
-    background-color: #4A628A;
-    background-image: url('./Images/blue-clouds-bg.png');
+    background-color: #364f6c;
+    background-image: url('./Images/dark-blue-bg.png');
     /* height: 500px; */
     background-repeat: no-repeat;
     background-size: contain;
@@ -285,15 +285,15 @@ html, body {
     background-color: #7AB2D3;
 }
 .slide-items-active .slide-round-one{
-    background-color: #4A628A;
+    background-color: #364f6c;
 }
 .slide-items-active .slide-round-three{
-    background-color: #4A628A;
+    background-color: #364f6c;
 }
 .slide-items-active .slide-round-one::before{
     opacity: 1;
     height: 60px;
-    background-color: #4A628A;
+    background-color: #364f6c;
 }
 .slide-items-active .slide-round-two::before{
     opacity: 1;
@@ -303,7 +303,7 @@ html, body {
 .slide-items-active .slide-round-three::before{
     opacity: 1;
     height: 60px;
-    background-color: #4A628A;
+    background-color: #364f6c;
 }
 .active-slide{
     display: flex !important;
