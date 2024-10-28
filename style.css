@@ -213,23 +213,23 @@ html, body {
     background-color: #10141e;
 }
 .blue-div{
-    background-color: #0083ff;
+    background-color: #4A628A;
     background-image: url('./Images/blue-clouds-bg.png');
     min-height: 500px;
     background-repeat: no-repeat;
     background-size: contain;
 }
 .red-div{
-    background-color: #ffc200;
-    background-image: url('./Images/yellows-clouds.png');
+    background-color: #4A628A;
+    background-image: url('./Images/blue-clouds-bg.png');
     /* height: 500px; */
     background-repeat: no-repeat;
     background-size: contain;
     padding: 10px 0px;
 }
 .orange-div{
-    background-color: #f89101;
-    background-image: url('./Images/orange-clouds-bg.png');
+    background-color: #7AB2D3;
+    background-image: url('./Images/light-blue-clouds-bg.png');
     /* height: 500px; */
     background-repeat: no-repeat;
     background-size: contain;
@@ -282,28 +282,28 @@ html, body {
     transition: all .4s ease-in-out;
 }
 .slide-items-active .slide-round-two{
-    background-color: #f89101;
+    background-color: #7AB2D3;
 }
 .slide-items-active .slide-round-one{
-    background-color: #0083ff;
+    background-color: #4A628A;
 }
 .slide-items-active .slide-round-three{
-    background-color: #ffc200;
+    background-color: #4A628A;
 }
 .slide-items-active .slide-round-one::before{
     opacity: 1;
     height: 60px;
-    background-color: #0083ff;
+    background-color: #4A628A;
 }
 .slide-items-active .slide-round-two::before{
     opacity: 1;
     height: 60px;
-    background-color: #f89101;
+    background-color: #7AB2D3;
 }
 .slide-items-active .slide-round-three::before{
     opacity: 1;
     height: 60px;
-    background-color: #ffc200;
+    background-color: #4A628A;
 }
 .active-slide{
     display: flex !important;
