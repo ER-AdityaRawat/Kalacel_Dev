@@ -228,8 +228,8 @@ html, body {
     padding: 10px 0px;
 }
 .orange-div{
-    background-color: #7AB2D3;
-    background-image: url('./Images/light-blue-clouds-bg.png');
+    background-color: #9dbefb;
+    background-image: url('./Images/clouds-bg.png');
     /* height: 500px; */
     background-repeat: no-repeat;
     background-size: contain;
@@ -282,7 +282,7 @@ html, body {
     transition: all .4s ease-in-out;
 }
 .slide-items-active .slide-round-two{
-    background-color: #7AB2D3;
+    background-color: #9dbefb;
 }
 .slide-items-active .slide-round-one{
     background-color: #364f6c;
@@ -298,7 +298,7 @@ html, body {
 .slide-items-active .slide-round-two::before{
     opacity: 1;
     height: 60px;
-    background-color: #7AB2D3;
+    background-color: #9dbefb;
 }
 .slide-items-active .slide-round-three::before{
     opacity: 1;
