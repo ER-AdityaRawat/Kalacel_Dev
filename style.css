@@ -64,7 +64,7 @@ html, body {
 .dropdown-column-menu  li::before{
     content: '';
     display: block;
-    height: 15%;
+    height: 36%;
     width: 3px;
     background-color: #d6dfeb;
     left: 15px;
@@ -74,12 +74,12 @@ html, body {
 .dropdown-column-menu  li:hover::before{
     background-color: #0083ff  !important;
 }
-.dropdown-column-menu  li:hover .dropdown-item{
+.dropdown-column-menu  li:hover .dropdown-item{ 
     color: #0083ff;
 }
 .dropdown-column-menu >li{
     list-style: none !important;
-    background-color: white;
+    background-color: white; 
 }
 .dropdown:hover .dropdown-row-menu{
     display: flex !important;

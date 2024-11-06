@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>klacelDoc</title>
+    <title>KDocs</title>
     <link rel="icon" type="image/x-icon" href="./images/Dax_logo.png">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./main.css">
@@ -43,59 +43,105 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 
 </head>
 <body>
-    <header>
-        <div class="main-header">
-          <div class="row" style="font-family: Roboto, sans-serif;">
-            <div class="col-md-3 col-sm-9 col-9">
-              <div class="logo">
-                <img src="https://www.kalacel.com/KalacelDoc/assets/images/Dax_logo.png" alt="Logo" style="height: 55px;">
-                <span style="font-size: 25px; font-weight: 600;color: #273f5b !important;">KlacelDoc</span>
-              </div>
+   
+    <!--navbar start-->
+    <nav class="navbar navbar-expand-lg fixed-top px-5" s>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <!-- <img src="https://www.kalacel.com/KalacelDoc/assets/images/Dax_logo.png" height="60" width="60" /> -->
+                <img src="./images/kalacelogo.png" height="40" width="50" />
+                KDocs
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end ms-5" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                        <img src="https://www.kalacel.com/KalacelDoc/assets/images/Dax_logo.png" height="50"
+                            width="50" />
+                        KlacelDoc
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav  flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" style="position: relative;">
+                                Company
+                            </a>
+                            <ul class="dropdown-column-menu">
+                                <li><a class="dropdown-item" href="#">About us</a></li>
+                                <!-- <li><a class="dropdown-item" href="#">Services</a></li>
+                                <li><a class="dropdown-item" href="#">Products</a></li>
+                                <li><a class="dropdown-item" href="#">Events</a></li>
+                                <li><a class="dropdown-item" href="#">Carrers</a></li> -->
+                                <li><a class="dropdown-item" href="#">Testimonials</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" style="position: relative;">
+                                Products
+                            </a>
+                            <ul class="dropdown-row-menu">
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <img src="https://html.crumina.net/html-utouch/img/product-item4.jpg"
+                                            height="250px" width="100%" />
+                                        <label style="background: transparent;text-align: center;padding: 1rem;text-transform: uppercase;font-size: 15px;color: #6a85a6;font-weight: 700;">Ktms</label>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="./kalacelDoc/" target="_blank">
+                                        <img src="https://www.kalacel.com/Images/KalacelDoc_Demo.gif" height="250px"
+                                            width="100%" />
+                                        <label style="background: transparent;text-align: center;padding: 1rem;font-size: 15px;color: #6a85a6;font-weight: 700;">KDocs</label>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <img src="https://www.kalacel.com/Images/KalacelDoc_Demo.gif" height="250px"
+                                            width="100%" />
+                                        <label style="background: transparent;text-align: center;padding: 1rem;font-size: 15px;color: #6a85a6;font-weight: 700;">KLens</label>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="#">Services</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item" style="margin-left:20rem ">
+                            <a class="nav-link mx-lg-2" href="#contact">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="./Demo.html" >Get Started</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-      
-            <div class="col-md-9 col-sm-3 col-3" style="padding-right: 0px; padding-left: 37px;">
-              <div class="menu_icon" (click)="openmenu()">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-              <!-- <div class="menu" [class.menuClass]="menuVisible">
-                <ul>
-                  <li > <a  href="/KalacelDoc/ManageHome"  routerLinkActive="active" class="heading-header">Home</a></li>
-                  <li > <a href="/KalacelDoc/ManagePricing" class="heading-header">Pricing</a></li>
-                  <li><a routerLink="" routerLinkActive="active" (click)="scrollToContact()" class="heading-header">Contact Us</a></li>
-      
-                </ul>
-              </div> -->
-              <div class="menu" [class.menuClass]="menuVisible">
-                <ul>
-                  <!-- <li > <a [href]="ManageHomePage" routerLinkActive="active" class="heading-header" [class.active]="isActive('/ManageHome')||isActive('')" style="font-size: 15px !important;">Home</a></li> -->
-                  <!-- <li> <a [href]="ManagePricingPage" class="heading-header" [class.active]="isActive('/ManagePricing')" style="font-size: 15px !important;">Pricing</a></li> -->
-                  <!-- <li><a href="#contacts" class="heading-header" style="font-size: 15px !important;">Contact Us</a>
-                  </li> -->
-                  <!-- <li>
-                    <a [href]="ManageFreeTrail" routerLinkActive="active">
-                        <button class="heading-header free-trail">Start Free Trial</button>
-                    </a>
-                </li> -->
-                </ul>
-              </div>
-              
-            </div>
-          </div>
         </div>
-    </header>
+    </nav>
     <div id="homeid" class="fullwidthbanner maindiv kalaceldoc-page" id="home">
         <div class="for-desk shadowhover" style="">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-6">
-                        <h1 style="font-weight: 600; margin-top:60px;margin-bottom: 0px;font-size: 2.2rem;color: #273f5b;">Scan, Sign and Send </h1>
-                        <h1 style="font-weight: 600;margin-bottom: 26px;font-size: 2.2rem;color: #273f5b;"> Anytime, Anywhere</h1>
-                        <h5 style="margin-bottom: 26px;">KalacelDoc : Scan and share documents on the go</h5>
+                        <h1 style="font-weight: 600; margin-top:60px;margin-bottom: 0px;font-size: 2rem;color: #273f5b;">Document Management Software</h1>
+                        <!-- <h1 style="font-weight: 600;margin-bottom: 26px;font-size: 2.2rem;color: #273f5b;"> Anytime, Anywhere</h1> -->
+                        <h5 style="margin-bottom: 26px;" class="pt-4">Scan, Share, And Manage Documents On The Go.</h5>
                         <p style="margin-bottom: 2rem;"> 
-                            KalacelDoc, your premier solution for seamless document sharing on the go!
-                            Designed with drivers in mind, KalacelDoc revolutionizes the way you manage and share essential documents, ensuring you stay organized, compliant, and connected wherever the road takes you.
+                            KDocs, your premier solution for seamless document sharing on the go!
+                            Designed with business in mind, KDocs  revolutionizes the way you manage and share essential documents, ensuring you stay organized, compliant, and connected wherever the road takes you.
                         </p>
                       
                         <!-- <a [href]="ManageFreeTrail" routerLinkActive="active">
@@ -227,10 +273,10 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
                         border: 1px solid gainsboro;box-shadow: -10px 10px 5px rgba(95, 94, 94, 0.65);">
                     </div>
                 <div class="col-lg-6 col-md-6 taxso-text">
-                    <h3 class="blue-text">Driver documents sharing made effortless</h3>
+                    <h3 class="blue-text">User documents sharing made effortless</h3>
                     <!-- <h6 class="text">DRIVER DOCUMENT SHARING MADE EFFORTLESS</h6> -->
                     <p> 
-                        Take the hassle out of the managing your driver documents with our intuitive mobile app. Say goodbye to the inconvenience of traditional methods and embrace the simplicity of digital document management.
+                        Take the hassle out of the managing your business documents with our intuitive mobile app. Say goodbye to the inconvenience of traditional methods and embrace the simplicity of digital document management.
                         <div class="key-features">
                             <h4 style="margin-bottom: 21px;">Key Features</h4>
                             <p> <i class="fas fa-check-circle"></i> Effortless Uploads. </p>
@@ -320,7 +366,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
             </div>
         </div>
     </section> -->
-    <footer style="background-color: #121921 !important;">
+    <footer style="background-color: #121921 !important;" id="contact">
         <div class="row footer-container" >
             <div class="col-lg-6 col-md-12">
                 <h3><a style="color: #0083ff;font-weight: 700;">Klacel</a></h3>
