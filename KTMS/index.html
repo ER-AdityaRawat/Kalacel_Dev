@@ -17,12 +17,12 @@
 </head>
 
 <body style="overflow-x: clip;">
-    <!--navbar start-->
-    <nav class="navbar navbar-expand-lg fixed-top px-5" >
+    <nav class="navbar navbar-expand-lg  px-5" s>
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="../Images/klacel-logo.png" height="40" width="60" />
-                KTMS
+                <!-- <img src="https://www.kalacel.com/KalacelDoc/assets/images/Dax_logo.png" height="60" width="60" /> -->
+                <img src="../Images/klacel-logo.png" height="40" width="50" />
+                Klacel
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
                 aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -39,26 +39,30 @@
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
-                    <ul class="navbar-nav  flex-grow-1 pe-3">
+                    <ul class="navbar-nav  flex-grow-1 pe-3" style="z-index: 1000;">
                         <li class="nav-item">
                             <a class="nav-link mx-lg-2" aria-current="page" href="../index.html">Home</a>
                         </li>
-                        <!-- <li class="nav-item dropdown">
+                        <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false" style="position: relative;">
                                 Company
                             </a>
                             <ul class="dropdown-column-menu">
                                 <li><a class="dropdown-item" href="#">About us</a></li>
+                                <!-- <li><a class="dropdown-item" href="#">Services</a></li>
+                                <li><a class="dropdown-item" href="#">Products</a></li>
+                                <li><a class="dropdown-item" href="#">Events</a></li>
+                                <li><a class="dropdown-item" href="#">Carrers</a></li> -->
                                 <li><a class="dropdown-item" href="#">Testimonials</a></li>
                             </ul>
-                        </li> -->
+                        </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown"
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false" style="position: relative;">
                                 Products
                             </a>
-                            <!-- <ul class="dropdown-row-menu">
+                            <ul class="dropdown-row-menu" style="z-index: 1000;">
                                 <li>
                                     <a class="dropdown-item" href="#">
                                         <img src="https://html.crumina.net/html-utouch/img/product-item4.jpg"
@@ -80,19 +84,87 @@
                                         <label style="background: transparent;text-align: center;padding: 1rem;font-size: 15px;color: #6a85a6;font-weight: 700;">KLens</label>
                                     </a>
                                 </li>
-                            </ul> -->
+                            </ul>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link mx-lg-2" href="#features">Features</a>
-                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="#">Services</a>
+                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link mx-lg-2" href="#contact">Contact</a>
                         </li>
-                        <li class="nav-item"  style="margin-left:20rem ">
-                            <a class="nav-link mx-lg-2" href="#contact">Sign In</a>
+                        <li class="nav-item" style="margin-left:24rem ">
+                            <a class="nav-link mx-lg-2" href="#contact">Login</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mx-lg-2" href="#contact">Get a Demo</a>
+                            <a class="nav-link mx-lg-2" href="./Demo.html" >Get Started</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--navbar start-->
+    <nav class="navbar navbar-expand-lg px-4"  style="background-color: white;position: sticky;top: 0;z-index: 100;
+    border-bottom: 1px solid #c4d1e0">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="color:  ;">
+                <img src="../Images/klacel-logo.png" height="40" width="60" />
+                KTMS
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end ms-5" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                        <img src="https://www.kalacel.com/KalacelDoc/assets/images/Dax_logo.png" height="50"
+                            width="50" />
+                        KlacelDoc
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav  flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link-ktms nav-link mx-lg-2" aria-current="page" href="../index.html" >Home</a>
+                        </li>
+                        <!-- <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" style="position: relative;">
+                                Company
+                            </a>
+                            <ul class="dropdown-column-menu">
+                                <li><a class="dropdown-item" href="#">About us</a></li>
+                                <li><a class="dropdown-item" href="#">Testimonials</a></li>
+                            </ul>
+                        </li> -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link nav-link-ktms dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" style="position: relative;">
+                                Products
+                            </a>
+                            <ul class="dropdown-column-menu">
+                                <li><a class="dropdown-item" href="#">Trucking Software</a></li>
+                                <!-- <li><a class="dropdown-item" href="#">Services</a></li>
+                                <li><a class="dropdown-item" href="#">Products</a></li>
+                                <li><a class="dropdown-item" href="#">Events</a></li>
+                                <li><a class="dropdown-item" href="#">Carrers</a></li> -->
+                                <li><a class="dropdown-item" href="#">Freight Broker Software</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link-ktms nav-link mx-lg-2" href="#features">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link-ktms nav-link mx-lg-2" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item"  style="margin-left:24rem ">
+                            <a class="nav-link-ktms nav-link mx-lg-2" href="#contact">Sign In</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link-ktms nav-link mx-lg-2" href="#contact">Get a Demo</a>
                         </li>
                     </ul>
                 </div>
@@ -101,7 +173,16 @@
     </nav>
 
     <!--navbar end-->
-    <div class="nav-spacebar"></div>
+    <!-- <div class="nav-spacebar"></div> -->
+
+    <!-- landing section  -->
+     <section>
+        <div class="row">
+            <div class="col-lg-12" style="background-image: url(../Images/image.jfif);background-size: cover;
+    height: 705px;">
+            </div>
+        </div>
+     </section>
     <!-- features section  -->
      <section id="features">
         <div class="row m-5"style="background-color: ;text-align:center">
@@ -318,7 +399,7 @@
                     Whether enhancing enterprise management or optimizing specialized tasks, our solutions integrate seamlessly into your workflow,
                     helping you achieve efficiency, productivity, and success with reliable support every step of the way. 
                 </p>
-                <a href="index.html" style="text-transform: uppercase;font-size: 12px;font-weight: 700;text-decoration: none;color: white;">Learn more about Klacel</a>
+                <!-- <a href="index.html" style="text-transform: uppercase;font-size: 12px;font-weight: 700;text-decoration: none;color: white;">Learn more about Klacel</a> -->
 
             </div>
             <div class="col-lg-2 col-md-12 useful-links-div">
@@ -327,15 +408,15 @@
                 <li><a>Home</a><i class="bi bi-arrow-right"></i></li>
                 <li><a>Company</a><i class="bi bi-arrow-right"></i></li>
                 <li><a>Products</a><i class="bi bi-arrow-right"></i></li>
-                <li><a>Services</a><i class="bi bi-arrow-right"></i></li>
-                <li><a>Contact</a><i class="bi bi-arrow-right"></i></li>
+                <!-- <li><a>Services</a><i class="bi bi-arrow-right"></i></li> -->
+                <!-- <li><a>Contact</a><i class="bi bi-arrow-right"></i></li> -->
              </ul>
 
             </div>
             <div class="col-lg-1 col-md-0"></div>
             <div class="col-lg-3 col-md-12">
                 <h5 style="color: white;font-weight: 700;">Contact with us</h5>
-                <!-- <label style="color: #4b5d73;font-size: 13px;display: block;margin-bottom: 5px;"><i class="bi bi-telephone" style="color: #0083ff;"></i>&nbsp;&nbsp;+125-055-50199.</label> -->
+                <label style="color: #4b5d73;font-size: 13px;display: block;margin-bottom: 5px;"><i class="bi bi-telephone" style="color: #0083ff;"></i>&nbsp;&nbsp;905-867-6767</label>
                 <label style="color: #4b5d73;font-size: 13px;display: block;"><i class="bi bi-envelope" style="color: #0083ff;"></i>&nbsp;&nbsp;support@klacel.com</label>
                 <button class="footer-send-btn btn btn-success">Send a Message</button>
                 <label style="color: #4b5d73;font-size: 14px;margin-top: 20px;display: block;">Follow Us:&nbsp;&nbsp;
@@ -351,7 +432,7 @@
                     <i class="bi bi-arrow-up" style="background:transparent;"></i>
                 </a>
                 <div class="sub-footer-container row">
-                    <span>Copyright &copy; 2024 <a href="index.html" style="font-weight: 700;color: #0083ff;text-decoration: none;background-color: white !important;">Klacel</a></span>
+                    <span>Copyright &copy; 2024 <a href="../index.html" style="font-weight: 700;color: #0083ff;text-decoration: none;background-color: white !important;">Klacel</a></span>
                     <!-- <label>
                         Designed by TaxSo Developed by Adiya Singh
                     </label> -->
