@@ -17,7 +17,7 @@
 
 <body style="overflow-x: clip;">
     <!--navbar start-->
-    <nav class="navbar navbar-expand-lg fixed-top px-5" s>
+    <nav class="navbar navbar-expand-lg fixed-top px-5" style="background-color: white !important;border-bottom: 1px solid #c4d1e0;">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <!-- <img src="https://www.kalacel.com/KalacelDoc/assets/images/Dax_logo.png" height="60" width="60" /> -->
@@ -62,7 +62,7 @@
                                 aria-expanded="false" style="position: relative;">
                                 Products
                             </a>
-                            <ul class="dropdown-row-menu">
+                            <!-- <ul class="dropdown-row-menu">
                                 <li>
                                     <a class="dropdown-item" href="./KTMS/">
                                         <img src="https://html.crumina.net/html-utouch/img/product-item4.jpg"
@@ -78,12 +78,17 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="#">
+                                    <a class="dropdown-item" href="./KLens/">
                                         <img src="https://www.kalacel.com/Images/KalacelDoc_Demo.gif" height="250px"
                                             width="100%" />
                                         <label style="background: transparent;text-align: center;padding: 1rem;font-size: 15px;color: #6a85a6;font-weight: 700;">KLens</label>
                                     </a>
                                 </li>
+                            </ul> -->
+                            <ul class="dropdown-column-menu">
+                                <li><a class="dropdown-item" href="./KTMS/">KTMS</a></li>
+                                <li><a class="dropdown-item" href="./kalacelDoc/">KDocs</a></li>
+                                <li><a class="dropdown-item" href="./KLens/">KLens</a></li>
                             </ul>
                         </li>
                         <!-- <li class="nav-item">
@@ -142,12 +147,13 @@
                             </a>
                         </li>
                         <li class="d-flex justify-content-between p-3 landing-item"  style="cursor: pointer;gap: 6%;">
-                            <!-- <img src="https://www.kalacel.com/KalacelDoc/assets/images/Dax_logo.png" width="50px" height="50px"/> -->
-                            <div style="width: 90%;">
-                                <h5 class="p-0" style="font-size: 16px;color: #273f5b;font-weight: 600;">KLens</h5>
-                                <p class="p-0" style="font-size: 13px;color: #4b5d73">Convert images to PDF, Word, and digitize text.</p>
-                            </div>
-                            <i class="bi bi-arrow-right " style="opacity: 1;"></i>
+                            <a href="./KLens/" style="text-decoration: none;display: flex;flex-direction: row;width: 100%;">
+                                <div style="width: 90%;">
+                                    <h5 class="p-0" style="font-size: 16px;color: #273f5b;font-weight: 600;">KLens</h5>
+                                    <p class="p-0" style="font-size: 13px;color: #4b5d73">Convert images to PDF, Word, and digitize text.</p>
+                                </div>
+                                <i class="bi bi-arrow-right " style="opacity: 1;color: #273f5b;"></i>
+                            </a>
                         </li>
                     </ul>
                 </div>

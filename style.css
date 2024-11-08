@@ -64,7 +64,7 @@ html, body {
 .dropdown-column-menu  li::before{
     content: '';
     display: block;
-    height: 36%;
+    height: 26%;
     width: 3px;
     background-color: #d6dfeb;
     left: 15px;

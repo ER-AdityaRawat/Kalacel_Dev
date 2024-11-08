@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="png" href="../Images/klacel-logo.png">
     <link rel="stylesheet" href="../style.css"/>
-    <!-- <link rel="stylesheet" href="./style.css"/> -->
     <!--Boostrap Css-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -17,10 +16,9 @@
 </head>
 
 <body style="overflow-x: clip;">
-    <nav class="navbar navbar-expand-lg  px-5" s>
+    <nav class="navbar navbar-expand-lg  px-5" style="background-color: white !important;border-bottom: 1px solid #c4d1e0;">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <!-- <img src="https://www.kalacel.com/KalacelDoc/assets/images/Dax_logo.png" height="60" width="60" /> -->
                 <img src="../Images/klacel-logo.png" height="40" width="50" />
                 Klacel
             </a>
@@ -62,7 +60,7 @@
                                 aria-expanded="false" style="position: relative;">
                                 Products
                             </a>
-                            <ul class="dropdown-row-menu" style="z-index: 1000;">
+                            <!-- <ul class="dropdown-row-menu" style="z-index: 1000;">
                                 <li>
                                     <a class="dropdown-item" href="#">
                                         <img src="https://html.crumina.net/html-utouch/img/product-item4.jpg"
@@ -84,20 +82,16 @@
                                         <label style="background: transparent;text-align: center;padding: 1rem;font-size: 15px;color: #6a85a6;font-weight: 700;">KLens</label>
                                     </a>
                                 </li>
+                            </ul> -->
+                            <ul class="dropdown-column-menu">
+                                <li><a class="dropdown-item" href="">KTMS</a></li>
+                                <li><a class="dropdown-item" href="../kalacelDoc/">KDocs</a></li>
+                                <li><a class="dropdown-item" href="../KLens/">KLens</a></li>
                             </ul>
                         </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link mx-lg-2" href="#">Services</a>
-                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link mx-lg-2" href="#contact">Contact</a>
                         </li>
-                        <!-- <li class="nav-item" style="margin-left:24rem ">
-                            <a class="nav-link mx-lg-2" href="#contact">Login</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link mx-lg-2" href="./Demo.html" >Get Started</a>
-                        </li> -->
                     </ul>
                 </div>
             </div>
@@ -121,7 +115,7 @@
                     <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
                         <img src="https://www.kalacel.com/KalacelDoc/assets/images/Dax_logo.png" height="50"
                             width="50" />
-                        KlacelDoc
+                        KTMS
                     </h5>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
@@ -130,16 +124,7 @@
                         <li class="nav-item">
                             <!-- <a class="nav-link-ktms nav-link mx-lg-2" aria-current="page" href="../index.html" >Home</a> -->
                         </li>
-                        <!-- <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false" style="position: relative;">
-                                Company
-                            </a>
-                            <ul class="dropdown-column-menu">
-                                <li><a class="dropdown-item" href="#">About us</a></li>
-                                <li><a class="dropdown-item" href="#">Testimonials</a></li>
-                            </ul>
-                        </li> -->
+                        
                         <li class="nav-item dropdown">
                             <a class="nav-link nav-link-ktms dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false" style="position: relative;">
@@ -147,10 +132,6 @@
                             </a>
                             <ul class="dropdown-column-menu">
                                 <li><a class="dropdown-item" href="#">Trucking Software</a></li>
-                                <!-- <li><a class="dropdown-item" href="#">Services</a></li>
-                                <li><a class="dropdown-item" href="#">Products</a></li>
-                                <li><a class="dropdown-item" href="#">Events</a></li>
-                                <li><a class="dropdown-item" href="#">Carrers</a></li> -->
                                 <li><a class="dropdown-item" href="#">Freight Broker Software</a></li>
                                 <li><a class="dropdown-item" href="#">Hybrid</a></li>
                             </ul>
@@ -161,7 +142,7 @@
                         <li class="nav-item">
                             <a class="nav-link-ktms nav-link mx-lg-2" href="#contact">Contact</a>
                         </li>
-                        <li class="nav-item"  style="margin-left:">
+                        <li class="nav-item" >
                             <a class="nav-link-ktms nav-link mx-lg-2" href="#contact">Sign In</a>
                         </li>
                         <li class="nav-item">
@@ -173,20 +154,46 @@
         </div>
     </nav>
 
-    <!--navbar end-->
-    <!-- <div class="nav-spacebar"></div> -->
 
     <!-- landing section  -->
      <section>
         <div class="row">
-            <div class="col-lg-12" style="background-image: url(../Images/image.jfif);background-size: cover;
-    height: 705px;">
+            <div class="col-lg-12 px-5" style="background-image: url(../Images/image.jfif);background-size: cover;height: 705px;">
+                <h1 style="color: #273f5b;font-size:3rem;font-weight: 600;" class="ms-5 mt-5">
+                    KTMS<br>
+                    Delivering Excellence,<br>
+                    Every Time.
+                </h1>
             </div>
+        </div>
+     </section>
+    <!-- products section   -->
+     <section>
+        <div class="row" style="background-color: white;">
+            <div class="col-lg-6 m-5 p-5">
+                <h1 style="color: #1b1b1b;font-size: 3rem;text-transform: uppercase;">Trucking Software</h1>
+                <h5 style="color: #1b1b1b;font-size: 1rem;max-width: 500px;padding-left: 9px;">Optimize the planning, execution, and tracking of freight and logistics operations by centralizing tasks like load
+                    planning, route analysis, load consolidation and shipment tracking. Manage complex logistics requirements
+                    effortlessly from a single interface.
+                </h5>
+            </div>
+            <div class="col-lg-6"></div>
+        </div>
+        <div class="row" style="background-color: #1b1b1b;">
+            <div class="col-lg-6 m-5 p-5">
+                <h1 style="color: white;font-size: 3rem;text-transform: uppercase;">Freight Broker Software </h1>
+                <h5 style="color: white;font-size: 1rem;max-width: 500px;padding-left: 6px;"> Outsource your LTL, FLT, or mixed
+                    shipments to the most suitable carriers. Effortlessly handle every step, from tendering quotes and consolidating
+                    loads to managing carriers, auditing bills, and processing payments—ensuring smooth, cost-effective logistics
+                    solutions.
+                </h5>
+            </div>
+            <div class="col-lg-6"></div>
         </div>
      </section>
     <!-- features section  -->
      <section id="features">
-        <div class="row m-5"style="background-color: ;text-align:center">
+        <div class="row m-5"style="text-align:center">
             <h1 style="color: #273f5b;" class="mb-4">KTMS Features</h1>
             <div class="col-lg-6" >
                 <ul style="list-style-type: none;" class="features-list-container">
@@ -331,6 +338,7 @@
             </div>
         </div>
      </section>
+
      <!-- benefits section  -->
       <section  class="benefits-container">
         <div class="row m-5 " style="max-width: 1440px;">
@@ -356,9 +364,10 @@
             </div>
         </div>
       </section>
+
     <!-- contact us section  -->
-     <section style="background-color: ;" class="px-5 my-2" id="contact">
-        <div class="row m-5 p-5" style="background-color: ;">
+     <section class="px-5 my-2" id="contact">
+        <div class="row m-5 p-5" >
             <div class="col-lg-6">
                 <h1 style="font-size: 3.5rem;font-weight: 600;color: #273f5b;">Let's get <br>in touch.</h1>
                 <label style="color: #4b5d73;font-size: 15px;display: block;" class="mt-5">
@@ -400,7 +409,6 @@
                     Whether enhancing enterprise management or optimizing specialized tasks, our solutions integrate seamlessly into your workflow,
                     helping you achieve efficiency, productivity, and success with reliable support every step of the way. 
                 </p>
-                <!-- <a href="index.html" style="text-transform: uppercase;font-size: 12px;font-weight: 700;text-decoration: none;color: white;">Learn more about Klacel</a> -->
 
             </div>
             <div class="col-lg-2 col-md-12 useful-links-div">
@@ -409,8 +417,6 @@
                 <li><a>Home</a><i class="bi bi-arrow-right"></i></li>
                 <li><a>Company</a><i class="bi bi-arrow-right"></i></li>
                 <li><a>Products</a><i class="bi bi-arrow-right"></i></li>
-                <!-- <li><a>Services</a><i class="bi bi-arrow-right"></i></li> -->
-                <!-- <li><a>Contact</a><i class="bi bi-arrow-right"></i></li> -->
              </ul>
 
             </div>
@@ -434,9 +440,6 @@
                 </a>
                 <div class="sub-footer-container row">
                     <span>Copyright &copy; 2024 <a href="../index.html" style="font-weight: 700;color: #0083ff;text-decoration: none;background-color: white !important;">Klacel</a></span>
-                    <!-- <label>
-                        Designed by TaxSo Developed by Adiya Singh
-                    </label> -->
                 </div>
 
 
@@ -446,10 +449,9 @@
       <!--footer end-->
 
 </body>
-<!--Bootstrap JS-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    <!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
     <script src="script.js"></script>
-
 </html>
