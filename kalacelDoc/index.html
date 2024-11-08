@@ -65,10 +65,95 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 }
   </style>
 </head>
-<body>
-   
+<body style="overflow-x: clip;">
+    <nav class="navbar navbar-expand-lg  px-5" s>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <!-- <img src="https://www.kalacel.com/KalacelDoc/assets/images/Dax_logo.png" height="60" width="60" /> -->
+                <img src="../Images/klacel-logo.png" height="40" width="50" />
+                Klacel
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end ms-5" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                        <img src="https://www.kalacel.com/KalacelDoc/assets/images/Dax_logo.png" height="50"
+                            width="50" />
+                        KlacelDoc
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav  flex-grow-1 pe-3" style="z-index: 1000;">
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" style="position: relative;">
+                                Company
+                            </a>
+                            <ul class="dropdown-column-menu">
+                                <li><a class="dropdown-item" href="#">About us</a></li>
+                                <!-- <li><a class="dropdown-item" href="#">Services</a></li>
+                                <li><a class="dropdown-item" href="#">Products</a></li>
+                                <li><a class="dropdown-item" href="#">Events</a></li>
+                                <li><a class="dropdown-item" href="#">Carrers</a></li> -->
+                                <li><a class="dropdown-item" href="#">Testimonials</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" style="position: relative;">
+                                Products
+                            </a>
+                            <ul class="dropdown-row-menu" style="z-index: 1000;">
+                                <li>
+                                    <a class="dropdown-item" href="../KTMS/">
+                                        <img src="https://html.crumina.net/html-utouch/img/product-item4.jpg"
+                                            height="250px" width="100%" />
+                                        <label style="background: transparent;text-align: center;padding: 1rem;text-transform: uppercase;font-size: 15px;color: #6a85a6;font-weight: 700;">Ktms</label>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="./kalacelDoc/" target="_blank">
+                                        <img src="https://www.kalacel.com/Images/KalacelDoc_Demo.gif" height="250px"
+                                            width="100%" />
+                                        <label style="background: transparent;text-align: center;padding: 1rem;font-size: 15px;color: #6a85a6;font-weight: 700;">KDocs</label>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <img src="https://www.kalacel.com/Images/KalacelDoc_Demo.gif" height="250px"
+                                            width="100%" />
+                                        <label style="background: transparent;text-align: center;padding: 1rem;font-size: 15px;color: #6a85a6;font-weight: 700;">KLens</label>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="#">Services</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="#contact">Contact</a>
+                        </li>
+                        <!-- <li class="nav-item" style="margin-left:24rem ">
+                            <a class="nav-link mx-lg-2" href="#contact">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="./Demo.html" >Get Started</a>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
     <!--navbar start-->
-    <nav class="navbar navbar-expand-lg fixed-top pl-5 pr-1" s>
+    <nav class="navbar navbar-expand-lg  pl-5 pr-1" style="position: sticky;top:0;z-index: 100;">
         <div class="container-fluid">
             <a class="navbar-brand" href="../index.html">
                 <!-- <img src="https://www.kalacel.com/KalacelDoc/assets/images/Dax_logo.png" height="60" width="60" /> -->
@@ -90,8 +175,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
-                    <ul class="navbar-nav  flex-grow-1 pe-3">
-                        <li class="nav-item">
+                    <ul class="navbar-nav  flex-grow-1 pe-3" style="justify-content: end;">
+                        <!-- <li class="nav-item">
                             <a class="nav-link mx-lg-2" aria-current="page" href="../index.html">Home</a>
                         </li>
                         <li class="nav-item dropdown">
@@ -101,10 +186,6 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
                             </a>
                             <ul class="dropdown-column-menu">
                                 <li><a class="dropdown-item" href="#">About us</a></li>
-                                <!-- <li><a class="dropdown-item" href="#">Services</a></li>
-                                <li><a class="dropdown-item" href="#">Products</a></li>
-                                <li><a class="dropdown-item" href="#">Events</a></li>
-                                <li><a class="dropdown-item" href="#">Carrers</a></li> -->
                                 <li><a class="dropdown-item" href="#">Testimonials</a></li>
                             </ul>
                         </li>
@@ -137,12 +218,9 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
                                 </li>
                             </ul>
                         </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link mx-lg-2" href="#">Services</a>
-                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link mx-lg-2" href="#contact">Contact</a>
-                        </li>
+                        </li> -->
                         <li class="nav-item" style="margin-left:27rem ">
                             <a class="nav-link mx-lg-2" href="#contact">Login</a>
                         </li>
