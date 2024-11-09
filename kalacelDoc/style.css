@@ -275,3 +275,23 @@ header{
         box-shadow: -10px 10px 5px #5f5e5ea6;
         border: 1px solid gainsboro;
     }
+    @media only screen and (min-width: 768px)and (max-width:992px){
+        .parent-navbar{
+            display: none !important;
+        }
+    }
+    @media only screen and (min-width: 600px)and (max-width:768px){
+        .parent-navbar{
+            display: none !important;
+        }
+    }
+    @media only screen and (min-width: 425px)and (max-width:600px){
+        .parent-navbar{
+            display: none !important;
+        }
+    }
+    @media only screen and (min-width: 300px)and (max-width:425px){
+        .parent-navbar{
+            display: none !important;
+        }
+    }
