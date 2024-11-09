@@ -355,18 +355,22 @@ html, body {
         padding: 0px !important;
     }
     .features-list-item-icon{
-        font-size: 35px !important;
+        font-size: 40px !important;
         margin-left: 12px;
     }
     .features-list-item h2{
-        font-size: 18px !important;
+        font-size:1rem !important;
     }
      /* benefits section  styles  */
-     .benefits-items{
+    .benefits-items{
         padding: 0rem !important;
     }
     .benefits-container .row{
         margin: 1.5rem !important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
     .benefits-container::before{
         height: 130px !important;
@@ -375,10 +379,11 @@ html, body {
         height: 130px !important;
     }
     .benefits-items h3{
-        font-size: 1rem !important;
+        font-size: 1.5rem !important;
     }
     .benefits-items h5{
         font-size: 0.55rem !important;
+        /* max-width: 100px; */
     }
     .benefits-items i{
         font-size: 30px !important;
@@ -392,7 +397,7 @@ html, body {
         margin: 1rem !important;
         padding: 1rem !important;
     }
-    .contact-container .col-12{
+    .contact-container .contact-left-container{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -403,7 +408,7 @@ html, body {
         gap: 5% !important;
     }
     .text-area-row{
-        width: 82% !important;
+        width: 94% !important;
     }
     .contact-container .col-sm-6{
         padding: 0px !important;
@@ -416,7 +421,7 @@ html, body {
         margin-bottom: 1.5rem !important;
     }
     .contact-container button{
-        margin-left: 3rem !important;
+        margin-left: 1rem !important;
     }
      /* product section styles  */
      .products-container h1{
@@ -446,11 +451,11 @@ html, body {
         padding: 0px !important;
     }
     .features-list-item-icon{
-        font-size: 30px !important;
+        font-size: 45px !important;
         margin-left: 14px;
     }
     .features-list-item h2{
-        font-size: 15px !important;
+        font-size: 1rem !important;
     }
     .features-list-item h5{
         font-size: 11px !important;
@@ -486,7 +491,7 @@ html, body {
         margin: 0.5rem !important;
         padding: 0.5rem !important;
     }
-    .contact-container .col-12{
+    .contact-container .contact-left-container{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -497,7 +502,7 @@ html, body {
         gap: 5% !important;
     }
     .text-area-row{
-        width: 82% !important;
+        width: 94% !important;
     }
     .contact-container .col-sm-6{
         padding: 0px !important;
@@ -510,7 +515,7 @@ html, body {
         margin-bottom: 1.5rem !important;
     }
     .contact-container button{
-        margin-left: 3rem !important;
+        margin-left: 1.5rem !important;
     }
      /* product section styles  */
      .products-container h1{
