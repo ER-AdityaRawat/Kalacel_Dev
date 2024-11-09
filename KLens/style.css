@@ -219,3 +219,149 @@ html, body {
 .footer-send-btn:hover{
     box-shadow: 10px 0 30px 0 rgba(1, 162, 60, 0.5)
 }
+@media only screen and (min-width: 768px)and (max-width:992px){
+    /* feature section styles  */
+    .feature-container h1{
+        font-size: 1.5rem !important;
+    }
+    .feature-container h5{
+        font-size: 0.75rem !important;
+        max-width: 200px !important;
+    }
+    .feature-container i{
+        font-size: 35px  !important;
+        padding: 7px !important;
+    }
+    /* landing section styles  */
+    .landing-container{
+        margin-left: 0rem !important;
+        margin-right: 0rem !important;
+
+    }
+    .landing-left-container h1{
+        font-size: 2.5rem !important;
+    }
+    .landing-left-container h5{
+        font-size: 1rem !important;
+        line-height: 25px;
+    }
+    .landing-left-container img{
+        height: 38px;
+    }
+    .parent-navbar{
+        display: none !important;
+    }
+}
+@media only screen and (min-width: 600px)and (max-width:768px){
+     /* feature section styles  */
+    .feature-container h1{
+        font-size: 1.2rem !important;
+    }
+    .feature-container h5{
+        font-size: 0.75rem !important;
+        max-width: 140px !important;
+    }
+    .feature-container i{
+        font-size: 35px  !important;
+        padding: 6px !important;
+    }
+    /* landing section styles  */
+    .landing-container{
+        margin-left: 0rem !important;
+        margin-right: 0rem !important;
+        padding-right:1.5rem !important;
+        padding-left: 1.5rem !important;
+    }
+    .landing-left-container h1{
+        font-size: 1.5rem !important;
+    }
+    .landing-left-container h5{
+        font-size: 0.75rem !important;
+        line-height: 18px;
+    }
+    .landing-left-container img{
+        height: 30px;
+    }
+    .parent-navbar{
+        display: none !important;
+    }
+}
+@media only screen and (min-width: 425px)and (max-width:600px){
+    /* feature section styles  */
+    .feature-container h1{
+        font-size: 1rem !important;
+    }
+    .feature-container h5{
+        font-size: 0.6rem !important;
+        max-width: 120px !important;
+    }
+    .feature-container i{
+        font-size: 30px  !important;
+        padding: 5px !important;
+    }
+    .feature-container{
+        margin-right: 2rem !important;
+        margin-left: 1.5rem !important;
+    }
+    /* landing section styles  */
+    .landing-container{
+        margin-left: 0rem !important;
+        margin-right: 0rem !important;
+        padding-right:1.5rem !important;
+        padding-left: 1.5rem !important;
+    }
+    .landing-left-container h1{
+        font-size: 1.1rem !important;
+    }
+    .landing-left-container h5{
+        font-size: 0.6rem !important;
+        line-height: 14px;
+    }
+    .landing-left-container img{
+        margin-right: 1px  !important;
+        height: 21px;
+    }
+    .parent-navbar{
+        display: none !important;
+    }
+}
+@media only screen and (min-width: 300px)and (max-width:425px) {
+    /* feature section styles  */
+    .feature-container{
+        margin-right: 1rem !important;
+        margin-left: 1rem !important;
+    }
+    .feature-container i{
+        font-size: 25px  !important;
+        padding: 5px !important;
+    }
+    .feature-container h1{
+        font-size: 18px !important;
+    }
+    .feature-container h5{
+        font-size: 12px !important;
+        max-width: 100px !important;
+    }
+     /* landing section styles  */
+     .landing-container{
+        margin-left: 0rem !important;
+        margin-right: 0rem !important;
+        padding-right:0.4rem !important;
+        padding-left: 0.4rem !important;
+    }
+    .landing-left-container h1{
+        font-size: 20px !important;
+    }
+    .landing-left-container h5{
+        font-size: 12px !important;
+        /* line-height: 10px; */
+    }
+    .landing-left-container img{
+        margin-right: 5px  !important;
+        height: 18px;
+        width: 50px;
+    }
+    .parent-navbar{
+        display: none !important;
+    }
+}

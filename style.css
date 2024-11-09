@@ -713,7 +713,7 @@ margin-left: 8px;
         display: none !important;
     }
     .footer-container .btn-success{
-        width: 100% !important;
+        width: 50% !important;
     }
      /* privacy section   */
      .privacy-container{
@@ -842,7 +842,9 @@ margin-left: 8px;
         display: none !important;
     }
     .footer-container .btn-success{
-        width: 100% !important;
+        width: 50% !important;
+        font-size: 13px !important;
+        padding:10px !important;
     }
      /* privacy section   */
      .privacy-container{
@@ -978,7 +980,9 @@ margin-left: 8px;
         display: none !important;
     }
     .footer-container .btn-success{
-        width: 100% !important;
+        width: 50% !important;
+        font-size: 13px !important;
+        padding:10px !important;
     }
       /* privacy section   */
       .privacy-container{

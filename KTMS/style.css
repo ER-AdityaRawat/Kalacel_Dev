@@ -219,3 +219,135 @@ html, body {
 .footer-send-btn:hover{
     box-shadow: 10px 0 30px 0 rgba(1, 162, 60, 0.5)
 }
+@media only screen and (min-width: 768px)and (max-width:992px){
+    /* features section styles  */
+    .features-container{
+        margin: 1rem !important;
+    }
+    .features-list-container{
+        padding: 0px !important;
+    }
+    .features-list-item-icon{
+        font-size: 35px !important;
+    }
+    .features-list-item h2{
+        font-size: 1.2rem !important;
+    }
+    /* benefits section  styles  */
+    .benefits-items h3{
+        font-size: 1.3rem !important;
+    }
+    .benefits-items h5{
+        font-size: 0.75rem !important;
+    }
+    .benefits-items i{
+        font-size: 40px !important;
+    }
+}
+@media only screen and (min-width: 600px)and (max-width:768px){
+    /* features section styles  */
+    .features-container{
+        margin: 0.5rem !important;
+    }
+    .features-list-container{
+        padding: 0px !important;
+    }
+    .features-list-item-icon{
+        font-size: 40px !important;
+    }
+    .features-list-item h2{
+        font-size: 1rem !important;
+    }
+    /* benefits section  styles  */
+    .benefits-items{
+        padding: 1rem !important;
+    }
+    .benefits-items h3{
+        font-size: 1.1rem !important;
+    }
+    .benefits-items h5{
+        font-size: 0.65rem !important;
+    }
+    .benefits-items i{
+        font-size: 40px !important;
+    }
+}
+@media only screen and (min-width: 425px)and (max-width:600px){
+    /* features section styles  */
+    .features-container{
+        margin: 0rem !important;
+    }
+    .features-list-container{
+        padding: 0px !important;
+    }
+    .features-list-item-icon{
+        font-size: 35px !important;
+        margin-left: 12px;
+    }
+    .features-list-item h2{
+        font-size: 18px !important;
+    }
+     /* benefits section  styles  */
+     .benefits-items{
+        padding: 0rem !important;
+    }
+    .benefits-container .row{
+        margin: 1.5rem !important;
+    }
+    .benefits-container::before{
+        height: 130px !important;
+    }
+    .benefits-container::after{
+        height: 130px !important;
+    }
+    .benefits-items h3{
+        font-size: 1rem !important;
+    }
+    .benefits-items h5{
+        font-size: 0.55rem !important;
+    }
+    .benefits-items i{
+        font-size: 30px !important;
+    }
+}
+@media only screen and (min-width: 300px)and (max-width:425px){
+    /* features section styles  */
+    .features-container{
+        margin: 0rem !important;
+    }
+    .features-list-container{
+        padding: 0px !important;
+    }
+    .features-list-item-icon{
+        font-size: 30px !important;
+        margin-left: 14px;
+    }
+    .features-list-item h2{
+        font-size: 15px !important;
+    }
+    .features-list-item h5{
+        font-size: 11px !important;
+    }
+     /* benefits section  styles  */
+     .benefits-items{
+        padding: 0rem !important;
+    }
+    .benefits-container .row{
+        margin: 0.2rem !important;
+    }
+    .benefits-container::before{
+        height: 110px !important;
+    }
+    .benefits-container::after{
+        height: 110px !important;
+    }
+    .benefits-items h3{
+        font-size: 14px !important;
+    }
+    .benefits-items h5{
+        font-size: 10px !important;
+    }
+    .benefits-items i{
+        font-size: 30px !important;
+    }
+}
