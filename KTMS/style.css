@@ -188,7 +188,7 @@ html, body {
     left: 0;
     
 }
-.benefits-container::after{
+/* .benefits-container::after{
     height: 170px !important;
     background: linear-gradient(to right bottom, transparent 49.5%, #fff 50%);
     bottom: -1px !important;
@@ -198,7 +198,7 @@ html, body {
     width: 100%;
     max-width: 100%;
     left: 0;
-}
+} */
 .contact-us-input{
     border: 1px groove #c4d1e0;
     padding: 5px;

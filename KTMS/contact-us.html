@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="png" href="../Images/klacel-logo.png">
+    <link rel="stylesheet" href="../style.css"/>
+    <!--Boostrap Css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <title>KTMS</title>
+</head>
+
+<body style="overflow-x: clip;">
+    <!--navbar start-->
+    <nav class="navbar navbar-expand-lg fixed-top px-5" style="background-color: white !important;border-bottom: 1px solid #c4d1e0;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <!-- <img src="https://www.kalacel.com/KalacelDoc/assets/images/Dax_logo.png" height="60" width="60" /> -->
+                <img src="../Images/klacel-logo.png" height="40" width="50" />
+                Klacel
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end ms-5" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                        <img src="https://www.kalacel.com/KalacelDoc/assets/images/Dax_logo.png" height="50"
+                            width="50" />
+                        KlacelDoc
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav  flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" style="position: relative;">
+                                Company
+                            </a>
+                            <ul class="dropdown-column-menu">
+                                <li><a class="dropdown-item" href="./about.html">About us</a></li>
+                                <!-- <li><a class="dropdown-item" href="#">Services</a></li>
+                                <li><a class="dropdown-item" href="#">Products</a></li>
+                                <li><a class="dropdown-item" href="#">Events</a></li>
+                                <li><a class="dropdown-item" href="#">Carrers</a></li> -->
+                                <li><a class="dropdown-item" href="#">Testimonials</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" style="position: relative;">
+                                Products
+                            </a>
+                            <!-- <ul class="dropdown-row-menu">
+                                <li>
+                                    <a class="dropdown-item" href="./KTMS/">
+                                        <img src="https://html.crumina.net/html-utouch/img/product-item4.jpg"
+                                            height="250px" width="100%" />
+                                        <label style="background: transparent;text-align: center;padding: 1rem;text-transform: uppercase;font-size: 15px;color: #6a85a6;font-weight: 700;">Ktms</label>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="./kalacelDoc/" target="_blank">
+                                        <img src="https://www.kalacel.com/Images/KalacelDoc_Demo.gif" height="250px"
+                                            width="100%" />
+                                        <label style="background: transparent;text-align: center;padding: 1rem;font-size: 15px;color: #6a85a6;font-weight: 700;">KDocs</label>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="./KLens/">
+                                        <img src="https://www.kalacel.com/Images/KalacelDoc_Demo.gif" height="250px"
+                                            width="100%" />
+                                        <label style="background: transparent;text-align: center;padding: 1rem;font-size: 15px;color: #6a85a6;font-weight: 700;">KLens</label>
+                                    </a>
+                                </li>
+                            </ul> -->
+                            <ul class="dropdown-column-menu">
+                                <li><a class="dropdown-item" href="./KTMS/">KTMS</a></li>
+                                <li><a class="dropdown-item" href="./kalacelDoc/">KDocs</a></li>
+                                <li><a class="dropdown-item" href="./KLens/">KLens</a></li>
+                            </ul>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="#">Services</a>
+                        </li> -->
+                        <li class="nav-item" >
+                            <a class="nav-link mx-lg-2" href="#contact">Contact</a>
+                        </li>
+                        <!-- <li class="nav-item" style="margin-left:24rem ">
+                            <a class="nav-link mx-lg-2" href="#contact">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="./Demo.html" >Get Started</a>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--navbar end-->
+    <div class="nav-spacebar"></div>
+    <!-- contact us section  -->
+     <section class="px-4 my-2 contact-section" id="contact">
+        <div class="row m-5 p-5 contact-container" >
+            <div class="col-lg-6 col-md-6 col-sm-6 col-12 contact-left-container">
+                <h1 style="font-size: 3.5rem;font-weight: 600;color: #273f5b;">Let's get <br>in touch.</h1>
+                <label style="color: #4b5d73;font-size: 15px;display: block;" class="mt-5">
+                    <i class="bi bi-envelope" style="color: #273f5b;"></i>&nbsp;&nbsp;support@klacel.com
+                </label>
+
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                <div class="row mx-4" style="display: flex;flex-direction: row;gap:10%" >
+                    <input type="text" class="contact-us-input" placeholder="First name" style="width: 45%;"/>
+                    <input type="text" class="contact-us-input" placeholder="Last name" style="width: 45%;"/>
+                </div>
+                <div class="row mx-4 mt-3" style="display: flex;flex-direction: row;gap:10%" >
+                    <input type="text" class="contact-us-input" placeholder="Phone number" style="width: 45%;"/>
+                    <input type="text" class="contact-us-input" placeholder="Business email" style="width: 45%;"/>
+                </div>
+                <div class="row mx-4 mt-3" style="display: flex;flex-direction: row;gap:10%" >
+                    <input type="text" class="contact-us-input" placeholder="Company name" style="width: 45%;"/>
+                    <input type="text" class="contact-us-input" placeholder="Company type" style="width: 45%;"/>
+                </div>
+                <div class="row mx-4 mt-3 text-area-row" style="display: flex;flex-direction: row;" >
+                    <textarea type="text" class="contact-us-input" placeholder="What we can help you with?" ></textarea>
+                </div>
+                <button class="btn btn-primary mx-5 mt-3" style="width: 82%;background-color: #273f5b; border-color:#273f5b;">Submit</button>
+            </div>
+        </div>
+     </section>
+    <!--footer start-->
+    <footer style="background-color: #121921 !important;" >
+        <div class="row footer-container" >
+            <div class="col-lg-6 col-md-12">
+                <h3><a style="color: #0083ff;font-weight: 700;">Klacel</a></h3>
+                <p style="color: #4b5d73;font-size: 15px;">We deliver tailored software solutions that empower businesses to streamline operations and drive growth. 
+                    Specializing in scalable, innovative technologies, we create custom software designed to meet the specific needs of your industry. 
+                    Whether enhancing enterprise management or optimizing specialized tasks, our solutions integrate seamlessly into your workflow,
+                    helping you achieve efficiency, productivity, and success with reliable support every step of the way. 
+                </p>
+
+            </div>
+            <div class="col-lg-2 col-md-12 useful-links-div">
+             <h5 style="color: white;font-weight: 700;">Useful Links</h5>
+             <ul class="footer-link-list" >
+                <li><a>Home</a><i class="bi bi-arrow-right"></i></li>
+                <li><a>Company</a><i class="bi bi-arrow-right"></i></li>
+                <li><a>Products</a><i class="bi bi-arrow-right"></i></li>
+             </ul>
+
+            </div>
+            <div class="col-lg-1 col-md-0"></div>
+            <div class="col-lg-3 col-md-12">
+                <h5 style="color: white;font-weight: 700;">Contact with us</h5>
+                <label style="color: #4b5d73;font-size: 13px;display: block;margin-bottom: 5px;"><i class="bi bi-telephone" style="color: #0083ff;"></i>&nbsp;&nbsp;905-867-6767</label>
+                <label style="color: #4b5d73;font-size: 13px;display: block;"><i class="bi bi-envelope" style="color: #0083ff;"></i>&nbsp;&nbsp;support@klacel.com</label>
+                <button class="footer-send-btn btn btn-success">Send a Message</button>
+                <label style="color: #4b5d73;font-size: 14px;margin-top: 20px;display: block;">Follow Us:&nbsp;&nbsp;
+                    <a href="https://www.facebook.com/"><i class="bi bi-facebook" style="color: #6987ab;"></i></a>
+                    &nbsp;&nbsp;<a href="https://www.linkedin.com/"><i class="bi bi-linkedin" style="color: #6987ab;"></i></a>
+                </label>
+
+            </div>
+        </div>
+        <div class="row copyright-container" style="background-color: transparent;">
+            <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center sub-footer flex-column align-items-center">
+                <a href="#" class="back-to-top">
+                    <i class="bi bi-arrow-up" style="background:transparent;"></i>
+                </a>
+                <div class="sub-footer-container row">
+                    <span>Copyright &copy; 2024 <a href="../index.html" style="font-weight: 700;color: #0083ff;text-decoration: none;background-color: white !important;">Klacel</a></span>
+                </div>
+
+
+            </div>
+        </div>
+    </footer>
+      <!--footer end-->
+
+</body>
+    <!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</html>
