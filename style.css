@@ -414,6 +414,21 @@ margin-left: 8px;
 .privacy-container{
     margin: 80px 300px !important;
 }
+/* about us styles */
+.core-value-item-container{
+    /* box-shadow: 0px 0px 5px #6a85a6; */
+    border-radius: 10px;
+    padding: 5px;
+    border:1px solid #6987ab;
+    transition: all .3s;
+}
+.core-value-item-container:hover{
+    box-shadow: 0px 0px 10px #6a85a6;
+}
+.core-value-item-container h1{
+    font-size: 1.5rem;
+    color: #273f5b;
+}
 /*----------------------Responsive CSS-------------- starts here--------------*/
 @media only screen and (min-width: 2000px) {
     /* #TMSImage{
