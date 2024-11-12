@@ -8,13 +8,13 @@ input:focus{
 outline: none;
 /* border: 1px solid #273f5b; */
 }
-/* @media only screen and (min-width: 1650px) {
-    footer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100% !important;
-        flex-direction: column;
-        width: 100% !important;
+@media only screen and (min-width: 425px)and (max-width:600px){
+    .form-right-container{
+     margin: 1rem 2rem !important;
     }
-} */
+}
+ @media only screen and (min-width: 300px)and (max-width:425px){
+     .form-right-container{
+         margin: 1rem 1rem !important;
+        }
+}
