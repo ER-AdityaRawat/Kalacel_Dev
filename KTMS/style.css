@@ -536,3 +536,74 @@ html, body {
         font-size: 1.5rem !important;
     }
 }
+@media only screen and (min-width: 1440px)and (max-width:1650px){
+    .landing-container .col-lg-12{
+        height: 800px !important;
+    }
+}
+@media only screen and (min-width: 1650px) {
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* background-color: #ecf5fe; */
+    }
+    .landing-section{
+        width: 1440px !important;
+    }
+    .footer-container{
+        width: 1440px !important;
+    }
+    nav{
+        width: 100% !important;
+    }
+    .container-fluid{
+        width: 1440px !important;
+    }
+    section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100% !important;
+        flex-direction: column;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100% !important;
+        flex-direction: column;
+        width: 100% !important;
+    }
+    .fixed-top {
+        right: initial !important;
+        left: initial !important;
+        /* width: 1463px !important; */
+    }
+    .products-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100% !important;
+    }
+    .products-container .col-lg-6{
+        width: 1440px !important;
+    }
+    .landing-container{
+        width: 100% !important;
+    }
+    .landing-container .col-lg-12{
+        display: flex;
+        justify-content: center;
+        height: 850px !important;
+    }
+    .landing-container .col-lg-12 h1{
+        width: 1440px !important;
+    }
+}
+@media only screen and (min-width: 2000px) {
+    .landing-container .col-lg-12{
+        height: 1200px !important;
+    }
+}
