@@ -517,9 +517,13 @@ margin-left: 8px;
         left: initial !important;
         /* width: 1463px !important; */
     }
-    /* .core-values-section{
+    .core-values-section .row{
         background-color: white !important;
-    } */
+        width: 1440px !important;
+    }
+    .landing-container{
+        width: 1440px !important;
+    }
 }
 @media only screen and (min-width: 992px) and (max-width:1200px) {
 
