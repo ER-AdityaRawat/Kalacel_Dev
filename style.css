@@ -157,7 +157,7 @@ html, body {
     padding: 2.5rem 3rem 1rem 3rem;
 }
 .footer-link-list li{
- color: #4b5d73;
+ color: #4b5d73 !important;
  list-style: none;
  margin-bottom: 9px;
  cursor: pointer;
@@ -186,6 +186,9 @@ html, body {
 }
 .footer-link-list li a{
     margin-right: 8px;
+    text-decoration: none;
+    color: #4b5d73 !important;
+
 }
 .footer-send-btn{
     margin-top: 2rem;
