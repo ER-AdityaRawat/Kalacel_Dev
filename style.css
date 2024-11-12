@@ -559,6 +559,19 @@ margin-left: 8px;
     .privacy-container{
         margin: 40px 200px !important;
     }
+    .about-us-landing-container h1{
+        font-size: 2.5rem !important;
+        top:50px !important;
+    }
+    .about-us-landing-container hr{
+        top:150px !important;
+
+    }
+    .about-us-landing-container h5{
+        font-size: 1.5rem !important;
+        top:200px !important;
+        max-width: 300px !important;
+    }
     
 }
 @media only screen and (min-width: 768px)and (max-width:992px) {
@@ -632,6 +645,19 @@ margin-left: 8px;
     /* privacy section   */
     .privacy-container{
         margin: 40px 140px !important;
+    }
+    .about-us-landing-container h1{
+        font-size: 2rem !important;
+        top:50px !important;
+    }
+    .about-us-landing-container hr{
+        top:130px !important;
+
+    }
+    .about-us-landing-container h5{
+        font-size: 1.2rem !important;
+        top:180px !important;
+        max-width: 250px !important;
     }
 }
 @media only screen and (min-width: 600px)and (max-width:768px) {
@@ -745,16 +771,29 @@ margin-left: 8px;
     }
     /* abouts us styles  */
     .landing-container h1{
-        font-size: 1.5rem !important;
+        font-size: 2rem !important;
         color: #273f5b;
     }
     .landing-container h5{
-        font-size: 0.75rem !important;
+        font-size: 1rem !important;
         color: #273f5b;
-        line-height: 20px !important;
+        line-height: 25px !important;
     }
     .landing-container img{
         height: 400px !important;
+    }
+    .about-us-landing-container h1{
+        font-size: 2rem !important;
+        top:50px !important;
+    }
+    .about-us-landing-container hr{
+        top:130px !important;
+
+    }
+    .about-us-landing-container h5{
+        font-size: 1.2rem !important;
+        top:180px !important;
+        max-width: 250px !important;
     }
 }
 @media only screen and (min-width: 425px)and (max-width:600px) {
@@ -886,6 +925,34 @@ margin-left: 8px;
      /* privacy section   */
      .privacy-container{
         margin: 35px 60px !important;
+    }
+    /* abouts us styles  */
+    .landing-container h1{
+        font-size: 2rem !important;
+        color: #273f5b;
+    }
+    .landing-container h5{
+        font-size: 1rem !important;
+        color: #273f5b;
+        line-height: 25px !important;
+    }
+    .about-us-landing-container h1{
+        font-size: 1.2rem !important;
+        top:30px !important;
+        left: 30px !important;
+    }
+    .about-us-landing-container hr{
+        top:80px !important;
+        left:30px !important;
+    }
+    .about-us-landing-container h5{
+        font-size: 1rem !important;
+        top:120px !important;
+        max-width: 150px !important;
+        left: 30px !important;
+    }
+    .about-us-landing-container img{
+        height: 400px !important;
     }
 }
 @media only screen and (min-width: 300px)and (max-width:425px) {
@@ -1025,6 +1092,16 @@ margin-left: 8px;
       .privacy-container{
         margin: 35px 10px !important;
     }
+    /* abouts us styles  */
+    .landing-container h1{
+        font-size: 2rem !important;
+        color: #273f5b;
+    }
+    .landing-container h5{
+        font-size: 1rem !important;
+        color: #273f5b;
+        line-height: 25px !important;
+    }
     .core-value-item-container{
         margin-bottom: 2rem !important;
         box-shadow: 0px 0px 5px #6a85a6;
@@ -1039,5 +1116,23 @@ margin-left: 8px;
     }
     .landing-container img{
         height: 350px !important;
+    }
+    .about-us-landing-container h1{
+        font-size: 1.2rem !important;
+        top:30px !important;
+        left: 30px !important;
+    }
+    .about-us-landing-container hr{
+        top:80px !important;
+        left:30px !important;
+    }
+    .about-us-landing-container h5{
+        font-size: 1rem !important;
+        top:120px !important;
+        max-width: 150px !important;
+        left: 30px !important;
+    }
+    .about-us-landing-container img{
+        height: 400px !important;
     }
 }
