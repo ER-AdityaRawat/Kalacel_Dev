@@ -587,9 +587,16 @@ html, body {
         align-items: center;
         width: 100% !important;
     }
+    .products-empty-item-blue{
+        max-width: 720px !important;
+    }
+    .products-item-blue{
+        max-width: 720px !important;
+    }
     .products-container .col-lg-6{
         width: 1440px !important;
     }
+    
     .landing-container{
         width: 100% !important;
     }
