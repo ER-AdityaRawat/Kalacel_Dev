@@ -407,6 +407,19 @@ html, body {
         width: 1440px !important;
     }
     section .row{
-        width: 1440px !important;
+        /* max-width: 1440px !important; */
+    }
+    .products-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100% !important;
+    }   
+    .products-container .col-lg-6 {
+        width: 720px !important;
+    }
+    .lens-landing-container h1,hr,h5{
+        /* margin-top: 6rem !important; */
+        margin-left: 1rem !important;
     }
 }
