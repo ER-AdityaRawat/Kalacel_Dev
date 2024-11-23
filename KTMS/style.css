@@ -165,6 +165,7 @@ html, body {
 .benefits-items h5{
     color: #fff;
     font-size: 1rem;
+    letter-spacing: 1px;
 }
 .benefits-container{
     background-color: #364f6c;
