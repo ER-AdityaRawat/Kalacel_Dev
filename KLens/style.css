@@ -178,7 +178,7 @@ html, body {
 }
 .benefits-container::before{
     height: 170px !important;
-    background: linear-gradient(to right bottom, #fff 49.5%, transparent 50%) !important;
+    background: linear-gradient(to right bottom, #F3F7FB 49.5%, transparent 50%) !important;
     top: -1px !important;
     content: '';
     display: block;
