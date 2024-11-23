@@ -554,7 +554,7 @@ html, body {
 }
 @media only screen and (min-width: 1440px)and (max-width:1650px){
     .landing-container .col-lg-12{
-        height: 800px !important;
+        /* height: 800px !important; */
     }
 }
 @media only screen and (min-width: 1650px) {
@@ -613,8 +613,8 @@ html, body {
         width: 720px !important;
     }
     
-    .landing-container{
-        /* width: 100% !important; */
+    .landing-container h1{
+        margin: 2rem 1rem !important;
     }
     .landing-container .col-lg-12{
         display: flex;
