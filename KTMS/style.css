@@ -614,19 +614,19 @@ html, body {
     }
     
     .landing-container{
-        width: 100% !important;
+        /* width: 100% !important; */
     }
     .landing-container .col-lg-12{
         display: flex;
         justify-content: center;
-        height: 850px !important;
+        /* height: 850px !important; */
     }
     .landing-container .col-lg-12 h1{
-        width: 1440px !important;
+        /* width: 1440px !important; */
     }
 }
 @media only screen and (min-width: 2000px) {
     .landing-container .col-lg-12{
-        height: 1200px !important;
+        /* height: 1200px !important; */
     }
 }
